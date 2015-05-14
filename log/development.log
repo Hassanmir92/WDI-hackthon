@@ -21547,3 +21547,17 @@ Started GET "/assets/Sheldon-aba4443d49eff4dd359df332e40ffa289c774d8784b6dea39c2
 
 Started GET "/assets/walter_white-6b70ddb527a4500efc76b8177ed2ca2022c9e271615d0fd2d8473ab7e478a37a.jpg" for ::1 at 2015-05-14 18:44:09 +0100
 >>>>>>> 12e245a34cc16619af7a789defb5706b33379b87
+
+
+Started GET "/" for ::1 at 2015-05-14 18:52:19 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by FlavoursController#new as HTML
+  Rendered flavours/_form.html.erb (1044.9ms)
+  Rendered flavours/new.html.erb within layouts/application (1274.8ms)
+Completed 200 OK in 2399ms (Views: 2360.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/style.self-8792267a71f9f1dece9ab231afccc621826e3a898289e157b051fa185b367d4f.css?body=1" for ::1 at 2015-05-14 18:52:23 +0100
+
+
+Started GET "/assets/fonts/nandos-regular-webfont.woff" for ::1 at 2015-05-14 18:52:23 +0100
