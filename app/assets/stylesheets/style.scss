@@ -12,8 +12,12 @@ div{
   &#homePage{
     height: 110%;
     background-image: url("http://www.nandos.co.uk/sites/all/themes/nandos/images/layout/home_footer_texture.png");
+    margin-bottom: -5px;
     img.nandosLogo {
       margin-top: 150px;
+    }
+    img.findFlavourButton {
+      margin-top: 15px;
     }
   }
   &#flavour-form{
@@ -46,9 +50,5 @@ input.nameInput {
   box-sizing: border-box;
   padding: .75em;
   transition: .5s ease;
-}
-
-.findFlavourButton {
-  margin-top: 15px;
 }
 
