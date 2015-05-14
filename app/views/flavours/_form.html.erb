@@ -21,10 +21,10 @@
 
   <div class="field">
     <%= f.label :personality, "Which picture best describes what you were doing last night?" %><br>
-    <%= radio_button("flavour", "personality", "Party") %> Party
-    <%= radio_button("flavour", "personality", "Lucky") %> Lucky
-    <%= radio_button("flavour", "personality", "Unlucky") %> Unlucky
-    <%= radio_button("flavour", "personality", "TV") %> TV
+    <%= radio_button("flavour", "personality", "Party") %>  <%= image_tag('Party.jpg', width: '150')%>
+    <%= radio_button("flavour", "personality", "Lucky") %>  <%= image_tag('Lucky.jpg', width: '150')%>
+    <%= radio_button("flavour", "personality", "Unlucky") %>  <%= image_tag('Unlucky.jpg', width: '150')%>
+    <%= radio_button("flavour", "personality", "TV") %>  <%= image_tag('TV.jpg', width: '150')%>
   </div>
 
   <div class="field">
