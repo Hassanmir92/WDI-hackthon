@@ -1,6 +1,16 @@
+@font-face {
+  font-family: "nandos-font";
+  src: url('fonts/nandos-regular-webfont.woff');
+}
+
+
 div{
   &#homePage{
     height: 110%;
     background-color: red;
   }
+}
+
+h1 {
+  font-family: "nandos-font";
 }
