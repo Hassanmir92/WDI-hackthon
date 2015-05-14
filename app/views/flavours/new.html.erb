@@ -1,10 +1,14 @@
 <div id="homePage">
+<section>
 <img class="nandosLogo" src="http://www.nandos.co.uk/sites/all/themes/nandos/images/layout/logo.png", width="250">
-<h1>New Flavour</h1>
-<h2>Slogan</h2>
+<h1>Find Your Flavour</h1>
+<h2>Theres a PERi-PERi for everyone</h2>
 <%= form_for(@flavour) do |f| %>
 <%= f.text_field :name, placeholder: 'Enter your name', class: 'nameInput' %>
-<%= image_tag('next.png', class: 'findFlavourButton') %>
+<%= image_tag('next.png', class: 'findFlavourButton') %><br>
+</section>
+<!-- <img class="bottle"src="http://www.nandos.com/sites/all/themes/nandos/images/bottle.png"> -->
+<img class="line" src="http://www.nandos.co.uk/sites/all/themes/nandos/images/layout/footer_dotted.png">
 </div>
 
 </div>
