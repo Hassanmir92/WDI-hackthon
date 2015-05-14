@@ -8,7 +8,7 @@ var scrollToSection = function(button, location){
 }
 
 var initialize = function(){
-  scrollToSection('button.findFlavourButton', 700);
+  scrollToSection('.findFlavourButton', 700);
 }
 
 $(initialize)

@@ -3,14 +3,53 @@
   src: url('fonts/nandos-regular-webfont.woff');
 }
 
+body {
+  margin: 0 auto;
+  text-align: center;
+}
 
 div{
   &#homePage{
     height: 110%;
-    background-color: red;
+    background-image: url("http://www.nandos.co.uk/sites/all/themes/nandos/images/layout/home_footer_texture.png");
+
+    img {
+      margin-top: 150px;
+    }
+  }
+  &#flavour-form{
+    background-image: url("http://www.nandos.co.uk/sites/all/themes/nandos/images/layout/bg_body.jpg");
   }
 }
 
 h1 {
+  margin-top: -15px;
   font-family: "nandos-font";
+  font-size: 80px;
 }
+
+h2 {
+  font-family: "nandos-font";
+  font-size: 30px;
+  margin-top: -30px;
+  margin-bottom: 30px;
+}
+
+input.nameInput {
+  font-family: "nandos-font";
+  font-size: 18px;
+  text-align: center;
+  margin: 0 auto; 
+  max-width: 300px;
+  border: none;
+  opacity: .5;
+  border-radius: 100px;
+  box-sizing: border-box;
+  padding: .75em;
+  transition: .5s ease;
+}
+
+.findFlavourButton {
+  margin-top: 15px;
+}
+
