@@ -12,16 +12,11 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :name %><br>
-    <%= f.text_field :name %>
-  </div>
-
-  <div class="field">
     <%= f.label :mood, 'Which picture best describes your current mood?' %><br>
-    <%= radio_button("flavour", "mood", "Happy") %> Happy
-    <%= radio_button("flavour", "mood", "Sad") %> Sad
-    <%= radio_button("flavour", "mood", "Angry") %> Angry
-    <%= radio_button("flavour", "mood", "Neutral") %> Neutral
+    <%= radio_button("flavour", "mood", "Happy") %> <%= image_tag('Happy.jpg', width: '150')%>
+    <%= radio_button("flavour", "mood", "Sad") %> <%= image_tag('Sad.jpg', width: '150')%>
+    <%= radio_button("flavour", "mood", "Angry") %> <%= image_tag('Angry.jpg', width: '150')%>
+    <%= radio_button("flavour", "mood", "Neutral") %> <%= image_tag('Neutral.jpg', width: '150')%>
   </div>
 
   <div class="field">
@@ -34,26 +29,26 @@
 
   <div class="field">
     <%= f.label :cheekyness, "How Cheeky you feeling today?" %><br>
-    <%= radio_button("flavour", "cheekyness", "1") %> 
-    <%= radio_button("flavour", "cheekyness", "2") %> 
-    <%= radio_button("flavour", "cheekyness", "3") %> 
-    <%= radio_button("flavour", "cheekyness", "4") %> 
+    <%= radio_button("flavour", "cheekyness", "1") %> <%= image_tag('Cheeky1.jpg', width: '150')%>
+    <%= radio_button("flavour", "cheekyness", "2") %> <%= image_tag('Cheeky2.jpg', width: '150')%>
+    <%= radio_button("flavour", "cheekyness", "3") %> <%= image_tag('Cheeky3.jpg', width: '150')%>
+    <%= radio_button("flavour", "cheekyness", "4") %> <%= image_tag('Cheeky4.jpg', width: '150')%>
   </div>
 
   <div class="field">
     <%= f.label :transport, "What is the best representation of your car?" %><br>
-    <%= radio_button("flavour", "transport", "Lambo") %> Party
-    <%= radio_button("flavour", "transport", "BMW") %> Lucky
-    <%= radio_button("flavour", "transport", "Citroen") %> Unlucky
-    <%= radio_button("flavour", "transport", "Shoe") %> TV  
+    <%= radio_button("flavour", "transport", "Lambo") %> <%= image_tag('Lambo.jpg', width: '150')%>
+    <%= radio_button("flavour", "transport", "BMW") %> <%= image_tag('BMW.jpg', width: '150')%>
+    <%= radio_button("flavour", "transport", "Citroen") %> <%= image_tag('Citroen.jpg', width: '150')%>
+    <%= radio_button("flavour", "transport", "Shoe") %> <%= image_tag('Shoe.jpg', width: '150')%>  
   </div>
 
   <div class="field">
     <%= f.label :scenariotube, "Which TV show character best suits you?" %><br>
-    <%= radio_button("flavour", "scenariotube", "1") %> 
-    <%= radio_button("flavour", "scenariotube", "2") %> 
-    <%= radio_button("flavour", "scenariotube", "3") %> 
-    <%= radio_button("flavour", "scenariotube", "4") %>   
+    <%= radio_button("flavour", "scenariotube", "1") %> <%= image_tag('khaleesi.jpg', width: '150')%>
+    <%= radio_button("flavour", "scenariotube", "2") %> <%= image_tag('Rick.jpg', width: '150')%>
+    <%= radio_button("flavour", "scenariotube", "3") %> <%= image_tag('Sheldon.jpg', width: '150')%>
+    <%= radio_button("flavour", "scenariotube", "4") %> <%= image_tag('walter_white.jpg', width: '150')%> 
   </div>
   <div class="actions">
     <%= f.submit %>

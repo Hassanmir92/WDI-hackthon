@@ -2,9 +2,16 @@
 <div id="homePage">
 <h1>New Flavour</h1>
 <button class="findFlavourButton">Find Flavour</button>
+<%= form_for(@flavour) do |f| %>
+<div class="field">
+  <%= f.label :name %><br>
+  <%= f.text_field :name %>
 </div>
 
+</div>
 <div id='flavour-form'>
 <%= render 'form' %>
 </div>
+
+<% end %>
 
