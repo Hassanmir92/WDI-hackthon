@@ -3143,3 +3143,67 @@ Processing by FlavoursController#show as HTML
   [1m[35mFlavour Load (0.4ms)[0m  SELECT  "flavours".* FROM "flavours" WHERE "flavours"."id" = ? LIMIT 1  [["id", 10]]
   Rendered flavours/show.html.erb within layouts/application (1.0ms)
 Completed 200 OK in 30ms (Views: 27.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2015-05-14 16:10:12 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by FlavoursController#new as HTML
+  Rendered flavours/_form.html.erb (24.1ms)
+  Rendered flavours/new.html.erb within layouts/application (29.6ms)
+Completed 200 OK in 205ms (Views: 190.6ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/flavours" for ::1 at 2015-05-14 16:10:17 +0100
+Processing by FlavoursController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TuD/+obnwq/q8scMgkBOdJnkCJnrD3hkurhb7fkDkk24RTV3BClGtz6ygSKcgTr0U+Alg0HC4Mf0hx277neD9w==", "flavour"=>{"name"=>"", "mood"=>"Happy", "personality"=>"Party", "cheekyness"=>"", "transport"=>"", "scenariotube"=>""}, "commit"=>"Create Flavour"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "flavours" ("name", "mood", "personality", "cheekyness", "transport", "scenariotube", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", ""], ["mood", "Happy"], ["personality", "Party"], ["cheekyness", ""], ["transport", ""], ["scenariotube", ""], ["created_at", "2015-05-14 15:10:17.681472"], ["updated_at", "2015-05-14 15:10:17.681472"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/flavours/12
+Completed 302 Found in 8ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/flavours/12" for ::1 at 2015-05-14 16:10:17 +0100
+Processing by FlavoursController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mFlavour Load (0.2ms)[0m  [1mSELECT  "flavours".* FROM "flavours" WHERE "flavours"."id" = ? LIMIT 1[0m  [["id", 12]]
+  Rendered flavours/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 37ms (Views: 28.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2015-05-14 16:10:24 +0100
+Processing by FlavoursController#new as HTML
+  Rendered flavours/_form.html.erb (2.5ms)
+  Rendered flavours/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 52ms (Views: 50.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-14 16:20:29 +0100
+Processing by FlavoursController#new as HTML
+  Rendered flavours/_form.html.erb (5.1ms)
+  Rendered flavours/new.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 39ms (Views: 37.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/flavours.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-14 16:20:29 +0100
+
+
+Started GET "/assets/scaffolds.self-97d156ee8c3116a221dc0c5b4b61874a2f4891bf4dadf802326855dc8c1085de.css?body=1" for ::1 at 2015-05-14 16:20:29 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-14 16:20:29 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-14 16:20:29 +0100
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-14 16:20:29 +0100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-05-14 16:20:29 +0100
+
+
+Started GET "/assets/flavours.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-14 16:20:29 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-05-14 16:20:29 +0100
