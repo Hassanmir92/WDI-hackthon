@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @flavour.name %>
+</p>
+
+<p>
+  <strong>Mood:</strong>
+  <%= @flavour.mood %>
+</p>
+
+<p>
+  <strong>Personality:</strong>
+  <%= @flavour.personality %>
+</p>
+
+<p>
+  <strong>Cheekyness:</strong>
+  <%= @flavour.cheekyness %>
+</p>
+
+<p>
+  <strong>Transport:</strong>
+  <%= @flavour.transport %>
+</p>
+
+<p>
+  <strong>Scenariotube:</strong>
+  <%= @flavour.scenariotube %>
+</p>
+
+<%= link_to 'Edit', edit_flavour_path(@flavour) %> |
+<%= link_to 'Back', flavours_path %>
