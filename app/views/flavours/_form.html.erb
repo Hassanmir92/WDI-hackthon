@@ -16,12 +16,18 @@
     <%= f.text_field :name %>
   </div>
   <div class="field">
-    <%= f.label :mood %><br>
-    <%= f.text_field :mood %>
+    <%= f.label :mood, 'Which picture best describes your current mood?' %><br>
+    <%= radio_button("flavour", "mood", "Happy") %> Happy
+    <%= radio_button("flavour", "mood", "Sad") %> Sad
+    <%= radio_button("flavour", "mood", "Angry") %> Angry
+    <%= radio_button("flavour", "mood", "Neutral") %> Neutral
   </div>
   <div class="field">
     <%= f.label :personality %><br>
-    <%= f.text_field :personality %>
+    <%= radio_button("flavour", "personality", "Party") %> Party
+    <%= radio_button("flavour", "personality", "Lucky") %> Lucky
+    <%= radio_button("flavour", "personality", "Unlucky") %> Unlucky
+    <%= radio_button("flavour", "personality", "TV") %> TV
   </div>
   <div class="field">
     <%= f.label :cheekyness %><br>
