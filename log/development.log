@@ -3207,3 +3207,61 @@ Started GET "/assets/flavours.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dd
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-05-14 16:20:29 +0100
+
+
+Started GET "/" for ::1 at 2015-05-14 16:22:30 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by FlavoursController#new as HTML
+  Rendered flavours/_form.html.erb (27.4ms)
+  Rendered flavours/new.html.erb within layouts/application (33.3ms)
+Completed 200 OK in 4757ms (Views: 4741.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-05-14 16:22:35 +0100
+Processing by FlavoursController#new as HTML
+  Rendered flavours/_form.html.erb (2.0ms)
+  Rendered flavours/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 83ms (Views: 82.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-14 16:22:35 +0100
+Processing by FlavoursController#new as HTML
+  Rendered flavours/_form.html.erb (2.8ms)
+  Rendered flavours/new.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 150ms (Views: 148.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/flavours" for ::1 at 2015-05-14 16:22:44 +0100
+Processing by FlavoursController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FniowAeD89oI6u33WtmXBqP8ko5xYF0NkpCca//S/Dbg3WJNhU13wtyqq9lEGOOGafi/lNutxa7cr9o96KbtjA==", "flavour"=>{"name"=>"", "mood"=>"Sad", "personality"=>"4", "transport"=>"BMW", "scenariotube"=>""}, "commit"=>"Create Flavour"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "flavours" ("name", "mood", "personality", "transport", "scenariotube", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", ""], ["mood", "Sad"], ["personality", "4"], ["transport", "BMW"], ["scenariotube", ""], ["created_at", "2015-05-14 15:22:44.765806"], ["updated_at", "2015-05-14 15:22:44.765806"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/flavours/13
+Completed 302 Found in 9ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/flavours/13" for ::1 at 2015-05-14 16:22:44 +0100
+Processing by FlavoursController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mFlavour Load (0.3ms)[0m  [1mSELECT  "flavours".* FROM "flavours" WHERE "flavours"."id" = ? LIMIT 1[0m  [["id", 13]]
+  Rendered flavours/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 176ms (Views: 167.1ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/flavours" for ::1 at 2015-05-14 16:22:59 +0100
+Processing by FlavoursController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FniowAeD89oI6u33WtmXBqP8ko5xYF0NkpCca//S/Dbg3WJNhU13wtyqq9lEGOOGafi/lNutxa7cr9o96KbtjA==", "flavour"=>{"name"=>"", "mood"=>"Sad", "personality"=>"Unlucky", "transport"=>"BMW", "scenariotube"=>""}, "commit"=>"Create Flavour"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "flavours" ("name", "mood", "personality", "transport", "scenariotube", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", ""], ["mood", "Sad"], ["personality", "Unlucky"], ["transport", "BMW"], ["scenariotube", ""], ["created_at", "2015-05-14 15:22:59.215490"], ["updated_at", "2015-05-14 15:22:59.215490"]]
+  [1m[35m (7.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/flavours/14
+Completed 302 Found in 12ms (ActiveRecord: 8.3ms)
+
+
+Started GET "/flavours/14" for ::1 at 2015-05-14 16:22:59 +0100
+Processing by FlavoursController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mFlavour Load (0.1ms)[0m  [1mSELECT  "flavours".* FROM "flavours" WHERE "flavours"."id" = ? LIMIT 1[0m  [["id", 14]]
+  Rendered flavours/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 94ms (Views: 92.7ms | ActiveRecord: 0.1ms)
