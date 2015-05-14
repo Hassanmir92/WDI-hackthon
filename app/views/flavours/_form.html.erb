@@ -49,8 +49,11 @@
   </div>
 
   <div class="field">
-    <%= f.label :scenariotube %><br>
-    <%= f.text_area :scenariotube %>
+    <%= f.label :scenariotube, "Which TV show character best suits you?" %><br>
+    <%= radio_button("flavour", "scenariotube", "1") %> 
+    <%= radio_button("flavour", "scenariotube", "2") %> 
+    <%= radio_button("flavour", "scenariotube", "3") %> 
+    <%= radio_button("flavour", "scenariotube", "4") %>   
   </div>
   <div class="actions">
     <%= f.submit %>
