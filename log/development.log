@@ -69959,3 +69959,29 @@ Processing by FlavoursController#show as HTML
   [1m[35mFlavour Load (0.1ms)[0m  SELECT  "flavours".* FROM "flavours" WHERE "flavours"."id" = ? LIMIT 1  [["id", 43]]
   Rendered flavours/show.html.erb within layouts/application (0.1ms)
 Completed 200 OK in 167ms (Views: 166.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2015-05-15 11:54:53 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by FlavoursController#new as HTML
+  Rendered flavours/_form.html.erb (436.6ms)
+  Rendered flavours/new.html.erb within layouts/application (631.8ms)
+Completed 200 OK in 3465ms (Views: 3428.2ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/flavours" for ::1 at 2015-05-15 11:54:59 +0100
+Processing by FlavoursController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AQ9n53+ddDCFkk8WtXk6C3zzqMI/L2agqi/SBLkbF5KkeFCK1w+69Vt8SXhYuaW2mAgXc7l5QrMAR0OIlhnlzQ==", "flavour"=>{"name"=>""}, "commit"=>"Create Flavour"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "flavours" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", ""], ["created_at", "2015-05-15 10:54:59.792625"], ["updated_at", "2015-05-15 10:54:59.792625"]]
+  [1m[35m (2.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/flavours/44
+Completed 302 Found in 27ms (ActiveRecord: 3.6ms)
+
+
+Started GET "/flavours/44" for ::1 at 2015-05-15 11:54:59 +0100
+Processing by FlavoursController#show as HTML
+  Parameters: {"id"=>"44"}
+  [1m[36mFlavour Load (0.2ms)[0m  [1mSELECT  "flavours".* FROM "flavours" WHERE "flavours"."id" = ? LIMIT 1[0m  [["id", 44]]
+  Rendered flavours/show.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 222ms (Views: 188.3ms | ActiveRecord: 0.2ms)
