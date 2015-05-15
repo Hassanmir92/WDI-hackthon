@@ -47,6 +47,20 @@ h3 {
   padding-top: 50px;
 }
 
+h4 {
+  font-family: "nandos-font";
+  color: #aa4902;
+  margin-top: 50px;
+  margin-bottom: -15px;
+  font-size: 50px;
+}
+
+p {
+  font-family: "nandos-font";
+  font-size: 28px;
+
+}
+
 input.nameInput {
   font-family: "nandos-font";
   font-size: 18px;
@@ -72,20 +86,32 @@ div.field {
   width: 100%;
 }
 
-// #homePage .bottle {
-//   position: absolute;
-//   left: 730px;
-//   bottom: 400px;
-// }
-
 div.results {
   margin: 0 auto;
-   background: url("http://www.nandos.co.uk/sites/all/themes/nandos/images/pages/home/home_our_menu_dynamic_bg.png") no-repeat center center; 
+   background: url("http://www.nandos.co.uk/sites/all/themes/nandos/images/pages/our_food/our-chicken-bg.png") no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 400px;
+    height: 500px;
     max-width: 700px;
     margin-top: 50px;
+  }
+
+  h2 span {
+    font-family: "nandos-font";
+    color: #b71c20;
+    font-size: 60px;
+    padding-top: 50px;
+  }
+
+  div.results h2 {
+    margin-top: 80px;
+    padding-top: 50px;
+  }
+
+  div.results img {
+    float: left;
+    margin-top: -10px;
+    margin-left: 70px;
   }

@@ -3,62 +3,108 @@
 
 <% if (@flavour.mood == 'Angry' && @flavour.personality == 'Lucky') || (@flavour.mood == 'Neutral' && @flavour.personality == 'Lucky') %>
 <div class="results">
-<h1><%= @flavour.name %> you should go for EXTRA EXTRA HOT</h1>
+<h2><span><%= @flavour.name %></span> you should go for EXTRA EXTRA HOT</h2>
+<%= image_tag("Extra_Extra_Hot.png", width: 100) %>
+<h4>EXTRA EXTRA HOT</h4><br>
+<p>Close your eyes when singing?<br>
+Hello sensitive, you should get your chicken lemon and herb
+</p>
 </div>
 
 <% elsif (@flavour.mood == 'Happy' && @flavour.personality == 'Party') || (@flavour.mood == 'Angry' && @flavour.personality == 'TV') %>
 
 <div class="results">
-<h1><%= @flavour.name %> you should go for EXTRA HOT</h1>
+<h2><span><%= @flavour.name %></span> you should go for EXTRA HOT</h2>
+<%= image_tag("Extra_Hot.png", width: 100) %>
+<h4>EXTRA Hot</h4><br>
+<p>Close your eyes when singing?<br>
+Hello sensitive, you should get your chicken lemon and herb
+</p>
 </div>
 
 <% elsif (@flavour.mood == 'Neutral' && @flavour.personality == 'TV') || (@flavour.mood == 'Neutral' && @flavour.personality == 'Unlucky') %>
 
 <div class="results">
-<h1><%= @flavour.name %> you should go for HOT</h1>
+<h2><span><%= @flavour.name %></span> you should go for HOT</h2>
+<%= image_tag("Hot.png", width: 100) %>
+<h4>Hot</h4><br>
+<p>Punch yourself to wake up?<br>
+Hot is made for you spice gladiator
+</p>
 </div>
 
 <% elsif (@flavour.mood == 'Sad' && @flavour.personality == 'TV') || (@flavour.mood == 'Angry' && @flavour.personality == 'Party')%>
 
 <div class="results">
-<h1><%= @flavour.name %> you should go for Medium</h1>
+<h2><span><%= @flavour.name %></span> you should go for Medium</h2>
+<%= image_tag("Medium.png", width: 100) %>
+<h4>Medium</h4><br>
+<p>Always look both ways when crossing?<br>
+sensible... you’ll like your chicken medium
+
+</p>
 </div>
 
 <% elsif (@flavour.mood == 'Angry' && @flavour.personality == 'Unlucky') || (@flavour.mood == 'Happy' && @flavour.personality == 'TV') %>
 
 <div class="results">
-<h1><%= @flavour.name %> you should go for Garlic</h1>
+<h2><span><%= @flavour.name %></span> you should go for Garlic</h2>
+<%= image_tag("Garlic.png", width: 100) %>
+<h4>Garlic</h4><br>
+<p>Close your eyes when singing?<br>
+Hello sensitive, you should get your chicken lemon and herb
+</p>
 </div>
 
 <% elsif (@flavour.mood == 'Sad' && @flavour.personality == 'Unlucky') %>
 
 <div class="results">
-<h1><%= @flavour.name %> you should go for Wild Herb</h1>
+<h2><span><%= @flavour.name %></span> you should go for Wild Herb</h2>
+<%= image_tag("Wild_Herb.png", width: 100) %>
+<h4>Wild Herb</h4><br>
+<p>Close your eyes when singing?<br>
+Hello sensitive, you should get your chicken lemon and herb
+</p>
 </div>
 
 <% elsif (@flavour.mood == 'Happy' && @flavour.personality == 'Lucky') || (@flavour.mood == 'Sad' && @flavour.personality == 'Party') %>
 
 <div class="results">
-<h1><%= @flavour.name %> you should go for Mild</h1>
+<h2><span><%= @flavour.name %></span> you should go for Mild</h2>
+<%= image_tag("Mild.png", width: 100) %>
+<h4>Mild</h4><br>
+<p>Close your eyes when singing?<br>
+Hello sensitive, you should get your chicken lemon and herb
+</p>
 </div>
 
 <% elsif (@flavour.mood == 'Happy' && @flavour.personality == 'Unlucky') %>
 
 <div class="results">
-<h1><%= @flavour.name %> you should go for Lemon and Herb</h1>
+<h2><span><%= @flavour.name %></span> you should go for Lemon and Herb</h2>
+<%= image_tag("Lemon_Herb.png", width: 100) %>
+<h4>Lemon and Herb</h4><br>
+<p>Close your eyes when singing?<br>
+Hello sensitive, you should get your chicken lemon and herb
+</p>
 </div>
 
 <% elsif (@flavour.mood == 'Sad' && @flavour.personality == 'Lucky') || (@flavour.mood == 'Neutral' && @flavour.personality == 'Party') %>
 
 
 <div class="results">
-<h1><%= @flavour.name %> you should go for Plain</h1>
+<h2><span><%= @flavour.name %></span></div> you should go for Plain</h2>
+<%= image_tag("", width: 100) %>
+<h4>Plain</h4><br>
+<p>Cant sleep without your PJ’s?<br>
+keep calm you can have your chicken plain
+</p>
 </div>
 
 
 <% else %>
 
-<h1>You cheeky one! Go back do all the questions properly!</h1>
+<h2>You cheeky one! Go back do all the questions properly!</h2>
 
 
 <% end %>
