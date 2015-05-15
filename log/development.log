@@ -40719,3 +40719,1625 @@ Started GET "/assets/application.self-1509cb3433bf7f60a75710bd4d8561d25423676b3c
 
 
 Started GET "/assets/fonts/nandos-regular-webfont.woff" for ::1 at 2015-05-15 10:22:39 +0100
+
+
+Started GET "/" for ::1 at 2015-05-15 10:24:19 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by FlavoursController#new as HTML
+  Rendered flavours/_form.html.erb (1270.0ms)
+  Rendered flavours/new.html.erb within layouts/application (1584.2ms)
+Completed 200 OK in 2674ms (Views: 2637.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/flavours.self-33d2332833cb4f097424f35d8b53aa2bd3b36bb05bbda7e48249051003cbabdb.css?body=1" for ::1 at 2015-05-15 10:24:22 +0100
+
+
+Started GET "/assets/foundation_and_overrides.self-0b4a6babc18d72e95c481dacc009b69664581683e0a17a49a73166666fb3c0bd.css?body=1" for ::1 at 2015-05-15 10:24:22 +0100
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-15 10:24:22 +0100
+
+
+Started GET "/assets/vendor/modernizr.self-74da3245def7569da28115667be6a85a2ad97464abe707c9829c46d8975597bc.js?body=1" for ::1 at 2015-05-15 10:24:22 +0100
+
+
+Started GET "/assets/style.self-2d429da4252499920169f436a1c963df5b1bd815e862dc9558ee1e878342f16d.css?body=1" for ::1 at 2015-05-15 10:24:22 +0100
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-05-15 10:24:22 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-15 10:24:22 +0100
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-15 10:24:23 +0100
+
+
+Started GET "/assets/foundation/foundation.self-ee5396739ce46beb039f26ea629172a74143752d74f703c6c3b219fc52aecf73.js?body=1" for ::1 at 2015-05-15 10:24:23 +0100
+
+
+Started GET "/assets/foundation/foundation.abide.self-f8b56c707a79139807305a5f7efc2aaa0848f0c677abcc056496f507e0192b79.js?body=1" for ::1 at 2015-05-15 10:24:23 +0100
+
+
+Started GET "/assets/foundation/foundation.accordion.self-d55abdcb0a7a29512be2f31f63d418cc8cc4505a0a3c71946d25484b0a0b3f4e.js?body=1" for ::1 at 2015-05-15 10:24:23 +0100
+
+
+Started GET "/assets/foundation/foundation.alert.self-fbde7afb61e8ffd8ab9b717f0bed1e58cb9e0144a25cc773fea634d5554f62cd.js?body=1" for ::1 at 2015-05-15 10:24:23 +0100
+
+
+Started GET "/assets/foundation/foundation.clearing.self-54610737b435a97590fcb176848c3c7a44c4d55d369894260fa7c28c97a70a23.js?body=1" for ::1 at 2015-05-15 10:24:23 +0100
+
+
+Started GET "/assets/foundation/foundation.dropdown.self-c9ee29909e266373e5e814a73fc6ea062245ddd29466d35d232448f73350d78a.js?body=1" for ::1 at 2015-05-15 10:24:23 +0100
+
+
+Started GET "/assets/foundation/foundation.equalizer.self-7aa743bf4660deb2fb2f601c112806a1703c430067531da3f41e4afffe19fee9.js?body=1" for ::1 at 2015-05-15 10:24:23 +0100
+
+
+Started GET "/assets/foundation/foundation.interchange.self-dad8415355087cb21a16fa44bac20d602344d52de5aca9e588e3588fce5dd5a7.js?body=1" for ::1 at 2015-05-15 10:24:23 +0100
+
+
+Started GET "/assets/foundation/foundation.joyride.self-0a5271728699423f583dd5b3b8a11bfe0dc9fb5044446bcf3218ef8ca906a82d.js?body=1" for ::1 at 2015-05-15 10:24:23 +0100
+
+
+Started GET "/assets/foundation/foundation.magellan.self-a50193f172f11e57b373c3001072ba2d6b34b857ab251e9ded30af5242855687.js?body=1" for ::1 at 2015-05-15 10:24:23 +0100
+
+
+Started GET "/assets/foundation/foundation.offcanvas.self-75bffd0c7f4f0d2992ab95f0cc6959282ebb5807da70123d40c01d76e230ec88.js?body=1" for ::1 at 2015-05-15 10:24:23 +0100
+
+
+Started GET "/assets/foundation/foundation.reveal.self-95f01feb3e25e47b58b78da0021ae2fffafdee70846682067c180e0e10f7b095.js?body=1" for ::1 at 2015-05-15 10:24:23 +0100
+
+
+Started GET "/assets/foundation/foundation.slider.self-8911a7352cb577b6b7973b0734d57d2b624c79286558ffa36fcac0c29b2d0bee.js?body=1" for ::1 at 2015-05-15 10:24:23 +0100
+
+
+Started GET "/assets/foundation/foundation.orbit.self-f8d30eb1717c874db26723f9e07901ec0a325d59263f1404ee83a616bb597ad2.js?body=1" for ::1 at 2015-05-15 10:24:23 +0100
+
+
+Started GET "/assets/foundation/foundation.tab.self-9bf6791513d1b20e213bb1aee3df0bc17128c7e18421258dc68a2a4ccabe1647.js?body=1" for ::1 at 2015-05-15 10:24:23 +0100
+
+
+Started GET "/assets/foundation/foundation.tooltip.self-834156796c253580629cfffc720bdc3d191b1e5a5a6ddbc1102ecd08c876516c.js?body=1" for ::1 at 2015-05-15 10:24:23 +0100
+
+
+Started GET "/assets/foundation/foundation.topbar.self-105416f061562f07c6a0a8057d68282fdc1eeb5dc306713fcae6c9a53001fc55.js?body=1" for ::1 at 2015-05-15 10:24:23 +0100
+
+
+Started GET "/assets/foundation.self-abe4ee7a105042f73b12b1f1a28788522d2f253445a475a94ab4d6e1f7b0ec52.js?body=1" for ::1 at 2015-05-15 10:24:23 +0100
+
+
+Started GET "/assets/flavours.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-15 10:24:23 +0100
+
+
+Started GET "/assets/script.self-c91a913bab553cf23f384d13f846cb877a32baa9638ea0e32ff3e3f73f866a39.js?body=1" for ::1 at 2015-05-15 10:24:23 +0100
+
+
+Started GET "/assets/application.self-1509cb3433bf7f60a75710bd4d8561d25423676b3c4d4a21914940bf07b8869a.js?body=1" for ::1 at 2015-05-15 10:24:23 +0100
+
+
+Started GET "/assets/next-667715adddfd1e0ad87b3a182b74cc415d3a967ddddb0d5bec5200611c19f2b4.png" for ::1 at 2015-05-15 10:24:23 +0100
+
+
+Started GET "/assets/Happy-4af38024a6bffb935d2341e08d0e2df5ee2fe3672801d1fb681b0c36ce762d79.jpg" for ::1 at 2015-05-15 10:24:23 +0100
+
+
+Started GET "/assets/Angry-1bcb71825dd20b5b65c6b353be3d39df50db8c049e0ede1b66460272fc0ab30d.jpg" for ::1 at 2015-05-15 10:24:23 +0100
+
+
+Started GET "/assets/Party-53baf14f6369c2afbc5e080d92cc51a89ec993a8854f908370bce246755446df.jpg" for ::1 at 2015-05-15 10:24:23 +0100
+
+
+Started GET "/assets/Sad-b0e670569ffb0e1c4f75eb122d4fe66be147c518d5484ca085666910b2470566.jpg" for ::1 at 2015-05-15 10:24:23 +0100
+
+
+Started GET "/assets/Lucky-96b3aaf24eaa1e68510bc0c8a1bacc6a49915a81ec2b7d04379b1109495cc031.jpg" for ::1 at 2015-05-15 10:24:23 +0100
+
+
+Started GET "/assets/Neutral-226454f3c3b418527e1b4d5de385d41293fb04eee77d9384cef91cc8baa89d87.jpg" for ::1 at 2015-05-15 10:24:23 +0100
+
+
+Started GET "/assets/Unlucky-9a01b711dde441dcb7ff1ab9dea7cf38f5fe952a52910aae5a39398082ae00b5.jpg" for ::1 at 2015-05-15 10:24:23 +0100
+
+
+Started GET "/assets/nandosbg.png" for ::1 at 2015-05-15 10:24:23 +0100
+
+
+Started GET "/assets/Cheeky1-0d7075af28bcb203a13a3d950f6969fca127ea30d8b22cb7a5735e763116fceb.jpg" for ::1 at 2015-05-15 10:24:23 +0100
+
+
+Started GET "/assets/TV-35f0c10dc305e266626cfa542119f7d657868527c1dfef897bfcf3a5d59a1b4e.jpg" for ::1 at 2015-05-15 10:24:23 +0100
+
+
+Started GET "/assets/Cheeky3-021f85bc9681fcca4bd4acfd000c34cf0fee3715997946dd5344a7120c7bb6bd.jpg" for ::1 at 2015-05-15 10:24:23 +0100
+
+
+Started GET "/assets/Cheeky4-31c696583c3cbf14183a70899c30f156ff30d56709a9a8cc8473359a67d605d0.jpg" for ::1 at 2015-05-15 10:24:23 +0100
+
+
+Started GET "/assets/Cheeky2-043f242abbed302066bd0c4f8619fe42589a91352a8540c844358d12aae0804c.jpg" for ::1 at 2015-05-15 10:24:23 +0100
+
+
+Started GET "/assets/BMW-dfaf91539fd1d2f7a976f75d3aa416ca80a006ce7f0096dbe7f6a0d81fa56f8e.jpg" for ::1 at 2015-05-15 10:24:23 +0100
+
+
+Started GET "/assets/Lambo-eb012dd70dfdcba5ce2d38512814af041cee7152da3b91e758265e30214daeb7.jpg" for ::1 at 2015-05-15 10:24:23 +0100
+
+
+Started GET "/assets/Citroen-03f3d5bc84059d51146ed86194b4b6ec9e153fddcf694b46870bfe0af7e76c85.jpg" for ::1 at 2015-05-15 10:24:23 +0100
+
+
+Started GET "/assets/Shoe-c10f0409f891e1c25edd96b4a82294eb25a56fb8826a1f88cc9403f69c2633a7.jpg" for ::1 at 2015-05-15 10:24:23 +0100
+
+
+Started GET "/assets/khaleesi-21a6b8001293212edf578882da67556592ee00f70bf8567f6ecec17f7a0556f0.jpg" for ::1 at 2015-05-15 10:24:23 +0100
+
+
+Started GET "/assets/Rick-ca06ed4462316cb9dad6712009fe5c14b71fcd612724ce4bd4d4fe270a29a574.jpg" for ::1 at 2015-05-15 10:24:23 +0100
+
+
+Started GET "/assets/Sheldon-aba4443d49eff4dd359df332e40ffa289c774d8784b6dea39c2bd184e57d1eaa.jpg" for ::1 at 2015-05-15 10:24:23 +0100
+
+
+Started GET "/assets/walter_white-6b70ddb527a4500efc76b8177ed2ca2022c9e271615d0fd2d8473ab7e478a37a.jpg" for ::1 at 2015-05-15 10:24:23 +0100
+
+
+Started GET "/" for ::1 at 2015-05-15 10:24:41 +0100
+Processing by FlavoursController#new as HTML
+  Rendered flavours/_form.html.erb (45.0ms)
+  Rendered flavours/new.html.erb within layouts/application (61.0ms)
+Completed 200 OK in 454ms (Views: 453.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/flavours.self-33d2332833cb4f097424f35d8b53aa2bd3b36bb05bbda7e48249051003cbabdb.css?body=1" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/assets/foundation_and_overrides.self-0b4a6babc18d72e95c481dacc009b69664581683e0a17a49a73166666fb3c0bd.css?body=1" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/assets/style.self-2c4bb81e0e822c9b902921ff7834d8a1c335e0379f985297d9c243ed5541f03d.css?body=1" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/assets/vendor/modernizr.self-74da3245def7569da28115667be6a85a2ad97464abe707c9829c46d8975597bc.js?body=1" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/assets/foundation/foundation.self-ee5396739ce46beb039f26ea629172a74143752d74f703c6c3b219fc52aecf73.js?body=1" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/assets/foundation/foundation.abide.self-f8b56c707a79139807305a5f7efc2aaa0848f0c677abcc056496f507e0192b79.js?body=1" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/assets/foundation/foundation.accordion.self-d55abdcb0a7a29512be2f31f63d418cc8cc4505a0a3c71946d25484b0a0b3f4e.js?body=1" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/assets/foundation/foundation.alert.self-fbde7afb61e8ffd8ab9b717f0bed1e58cb9e0144a25cc773fea634d5554f62cd.js?body=1" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/assets/foundation/foundation.clearing.self-54610737b435a97590fcb176848c3c7a44c4d55d369894260fa7c28c97a70a23.js?body=1" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/assets/foundation/foundation.dropdown.self-c9ee29909e266373e5e814a73fc6ea062245ddd29466d35d232448f73350d78a.js?body=1" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/assets/foundation/foundation.equalizer.self-7aa743bf4660deb2fb2f601c112806a1703c430067531da3f41e4afffe19fee9.js?body=1" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/assets/foundation/foundation.interchange.self-dad8415355087cb21a16fa44bac20d602344d52de5aca9e588e3588fce5dd5a7.js?body=1" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/assets/foundation/foundation.joyride.self-0a5271728699423f583dd5b3b8a11bfe0dc9fb5044446bcf3218ef8ca906a82d.js?body=1" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/assets/foundation/foundation.magellan.self-a50193f172f11e57b373c3001072ba2d6b34b857ab251e9ded30af5242855687.js?body=1" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/assets/foundation/foundation.offcanvas.self-75bffd0c7f4f0d2992ab95f0cc6959282ebb5807da70123d40c01d76e230ec88.js?body=1" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/assets/foundation/foundation.orbit.self-f8d30eb1717c874db26723f9e07901ec0a325d59263f1404ee83a616bb597ad2.js?body=1" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/assets/foundation/foundation.reveal.self-95f01feb3e25e47b58b78da0021ae2fffafdee70846682067c180e0e10f7b095.js?body=1" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/assets/foundation/foundation.slider.self-8911a7352cb577b6b7973b0734d57d2b624c79286558ffa36fcac0c29b2d0bee.js?body=1" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/assets/foundation/foundation.tab.self-9bf6791513d1b20e213bb1aee3df0bc17128c7e18421258dc68a2a4ccabe1647.js?body=1" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/assets/foundation/foundation.tooltip.self-834156796c253580629cfffc720bdc3d191b1e5a5a6ddbc1102ecd08c876516c.js?body=1" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/assets/foundation/foundation.topbar.self-105416f061562f07c6a0a8057d68282fdc1eeb5dc306713fcae6c9a53001fc55.js?body=1" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/assets/foundation.self-abe4ee7a105042f73b12b1f1a28788522d2f253445a475a94ab4d6e1f7b0ec52.js?body=1" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/assets/flavours.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/assets/script.self-c91a913bab553cf23f384d13f846cb877a32baa9638ea0e32ff3e3f73f866a39.js?body=1" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/assets/application.self-1509cb3433bf7f60a75710bd4d8561d25423676b3c4d4a21914940bf07b8869a.js?body=1" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/assets/next-667715adddfd1e0ad87b3a182b74cc415d3a967ddddb0d5bec5200611c19f2b4.png" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/assets/Happy-4af38024a6bffb935d2341e08d0e2df5ee2fe3672801d1fb681b0c36ce762d79.jpg" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/assets/Sad-b0e670569ffb0e1c4f75eb122d4fe66be147c518d5484ca085666910b2470566.jpg" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/assets/Lucky-96b3aaf24eaa1e68510bc0c8a1bacc6a49915a81ec2b7d04379b1109495cc031.jpg" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/assets/Party-53baf14f6369c2afbc5e080d92cc51a89ec993a8854f908370bce246755446df.jpg" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/assets/Angry-1bcb71825dd20b5b65c6b353be3d39df50db8c049e0ede1b66460272fc0ab30d.jpg" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/assets/Unlucky-9a01b711dde441dcb7ff1ab9dea7cf38f5fe952a52910aae5a39398082ae00b5.jpg" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/assets/Neutral-226454f3c3b418527e1b4d5de385d41293fb04eee77d9384cef91cc8baa89d87.jpg" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/assets/TV-35f0c10dc305e266626cfa542119f7d657868527c1dfef897bfcf3a5d59a1b4e.jpg" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/assets/Cheeky1-0d7075af28bcb203a13a3d950f6969fca127ea30d8b22cb7a5735e763116fceb.jpg" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/assets/Cheeky2-043f242abbed302066bd0c4f8619fe42589a91352a8540c844358d12aae0804c.jpg" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/assets/Cheeky3-021f85bc9681fcca4bd4acfd000c34cf0fee3715997946dd5344a7120c7bb6bd.jpg" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/assets/Cheeky4-31c696583c3cbf14183a70899c30f156ff30d56709a9a8cc8473359a67d605d0.jpg" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/assets/Lambo-eb012dd70dfdcba5ce2d38512814af041cee7152da3b91e758265e30214daeb7.jpg" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/assets/fonts/nandos-regular-webfont.woff" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/assets/nandosbg.png" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/assets/BMW-dfaf91539fd1d2f7a976f75d3aa416ca80a006ce7f0096dbe7f6a0d81fa56f8e.jpg" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/assets/Shoe-c10f0409f891e1c25edd96b4a82294eb25a56fb8826a1f88cc9403f69c2633a7.jpg" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/assets/khaleesi-21a6b8001293212edf578882da67556592ee00f70bf8567f6ecec17f7a0556f0.jpg" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/assets/Citroen-03f3d5bc84059d51146ed86194b4b6ec9e153fddcf694b46870bfe0af7e76c85.jpg" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/assets/Rick-ca06ed4462316cb9dad6712009fe5c14b71fcd612724ce4bd4d4fe270a29a574.jpg" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/assets/Sheldon-aba4443d49eff4dd359df332e40ffa289c774d8784b6dea39c2bd184e57d1eaa.jpg" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/assets/walter_white-6b70ddb527a4500efc76b8177ed2ca2022c9e271615d0fd2d8473ab7e478a37a.jpg" for ::1 at 2015-05-15 10:24:42 +0100
+
+
+Started GET "/" for ::1 at 2015-05-15 10:25:46 +0100
+Processing by FlavoursController#new as HTML
+  Rendered flavours/_form.html.erb (43.0ms)
+  Rendered flavours/new.html.erb within layouts/application (69.9ms)
+Completed 200 OK in 319ms (Views: 318.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/flavours.self-33d2332833cb4f097424f35d8b53aa2bd3b36bb05bbda7e48249051003cbabdb.css?body=1" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/assets/foundation_and_overrides.self-0b4a6babc18d72e95c481dacc009b69664581683e0a17a49a73166666fb3c0bd.css?body=1" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/assets/style.self-1cf22988e9587bf3859cf4a71b52e9bfba4e975143427ce3d9932aaf92d28bdd.css?body=1" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/assets/vendor/modernizr.self-74da3245def7569da28115667be6a85a2ad97464abe707c9829c46d8975597bc.js?body=1" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/assets/foundation/foundation.self-ee5396739ce46beb039f26ea629172a74143752d74f703c6c3b219fc52aecf73.js?body=1" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/assets/foundation/foundation.abide.self-f8b56c707a79139807305a5f7efc2aaa0848f0c677abcc056496f507e0192b79.js?body=1" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/assets/foundation/foundation.accordion.self-d55abdcb0a7a29512be2f31f63d418cc8cc4505a0a3c71946d25484b0a0b3f4e.js?body=1" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/assets/foundation/foundation.alert.self-fbde7afb61e8ffd8ab9b717f0bed1e58cb9e0144a25cc773fea634d5554f62cd.js?body=1" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/assets/foundation/foundation.dropdown.self-c9ee29909e266373e5e814a73fc6ea062245ddd29466d35d232448f73350d78a.js?body=1" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/assets/foundation/foundation.equalizer.self-7aa743bf4660deb2fb2f601c112806a1703c430067531da3f41e4afffe19fee9.js?body=1" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/assets/foundation/foundation.clearing.self-54610737b435a97590fcb176848c3c7a44c4d55d369894260fa7c28c97a70a23.js?body=1" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/assets/foundation/foundation.interchange.self-dad8415355087cb21a16fa44bac20d602344d52de5aca9e588e3588fce5dd5a7.js?body=1" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/assets/foundation/foundation.joyride.self-0a5271728699423f583dd5b3b8a11bfe0dc9fb5044446bcf3218ef8ca906a82d.js?body=1" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/assets/foundation/foundation.magellan.self-a50193f172f11e57b373c3001072ba2d6b34b857ab251e9ded30af5242855687.js?body=1" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/assets/foundation/foundation.offcanvas.self-75bffd0c7f4f0d2992ab95f0cc6959282ebb5807da70123d40c01d76e230ec88.js?body=1" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/assets/foundation/foundation.orbit.self-f8d30eb1717c874db26723f9e07901ec0a325d59263f1404ee83a616bb597ad2.js?body=1" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/assets/foundation/foundation.reveal.self-95f01feb3e25e47b58b78da0021ae2fffafdee70846682067c180e0e10f7b095.js?body=1" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/assets/foundation/foundation.slider.self-8911a7352cb577b6b7973b0734d57d2b624c79286558ffa36fcac0c29b2d0bee.js?body=1" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/assets/foundation/foundation.tab.self-9bf6791513d1b20e213bb1aee3df0bc17128c7e18421258dc68a2a4ccabe1647.js?body=1" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/assets/foundation/foundation.tooltip.self-834156796c253580629cfffc720bdc3d191b1e5a5a6ddbc1102ecd08c876516c.js?body=1" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/assets/foundation.self-abe4ee7a105042f73b12b1f1a28788522d2f253445a475a94ab4d6e1f7b0ec52.js?body=1" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/assets/flavours.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/assets/foundation/foundation.topbar.self-105416f061562f07c6a0a8057d68282fdc1eeb5dc306713fcae6c9a53001fc55.js?body=1" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/assets/script.self-c91a913bab553cf23f384d13f846cb877a32baa9638ea0e32ff3e3f73f866a39.js?body=1" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/assets/application.self-1509cb3433bf7f60a75710bd4d8561d25423676b3c4d4a21914940bf07b8869a.js?body=1" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/assets/next-667715adddfd1e0ad87b3a182b74cc415d3a967ddddb0d5bec5200611c19f2b4.png" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/assets/Happy-4af38024a6bffb935d2341e08d0e2df5ee2fe3672801d1fb681b0c36ce762d79.jpg" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/assets/Sad-b0e670569ffb0e1c4f75eb122d4fe66be147c518d5484ca085666910b2470566.jpg" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/assets/Angry-1bcb71825dd20b5b65c6b353be3d39df50db8c049e0ede1b66460272fc0ab30d.jpg" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/assets/Neutral-226454f3c3b418527e1b4d5de385d41293fb04eee77d9384cef91cc8baa89d87.jpg" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/assets/Party-53baf14f6369c2afbc5e080d92cc51a89ec993a8854f908370bce246755446df.jpg" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/assets/Lucky-96b3aaf24eaa1e68510bc0c8a1bacc6a49915a81ec2b7d04379b1109495cc031.jpg" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/assets/Unlucky-9a01b711dde441dcb7ff1ab9dea7cf38f5fe952a52910aae5a39398082ae00b5.jpg" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/assets/TV-35f0c10dc305e266626cfa542119f7d657868527c1dfef897bfcf3a5d59a1b4e.jpg" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/assets/Cheeky1-0d7075af28bcb203a13a3d950f6969fca127ea30d8b22cb7a5735e763116fceb.jpg" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/assets/Cheeky2-043f242abbed302066bd0c4f8619fe42589a91352a8540c844358d12aae0804c.jpg" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/assets/Cheeky3-021f85bc9681fcca4bd4acfd000c34cf0fee3715997946dd5344a7120c7bb6bd.jpg" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/assets/Cheeky4-31c696583c3cbf14183a70899c30f156ff30d56709a9a8cc8473359a67d605d0.jpg" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/assets/Lambo-eb012dd70dfdcba5ce2d38512814af041cee7152da3b91e758265e30214daeb7.jpg" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/assets/fonts/nandos-regular-webfont.woff" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/assets/BMW-dfaf91539fd1d2f7a976f75d3aa416ca80a006ce7f0096dbe7f6a0d81fa56f8e.jpg" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/assets/Shoe-c10f0409f891e1c25edd96b4a82294eb25a56fb8826a1f88cc9403f69c2633a7.jpg" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/assets/Citroen-03f3d5bc84059d51146ed86194b4b6ec9e153fddcf694b46870bfe0af7e76c85.jpg" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/assets/khaleesi-21a6b8001293212edf578882da67556592ee00f70bf8567f6ecec17f7a0556f0.jpg" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/assets/Rick-ca06ed4462316cb9dad6712009fe5c14b71fcd612724ce4bd4d4fe270a29a574.jpg" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/assets/Sheldon-aba4443d49eff4dd359df332e40ffa289c774d8784b6dea39c2bd184e57d1eaa.jpg" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/assets/walter_white-6b70ddb527a4500efc76b8177ed2ca2022c9e271615d0fd2d8473ab7e478a37a.jpg" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/assets/nandosbg.png" for ::1 at 2015-05-15 10:25:47 +0100
+
+
+Started GET "/" for ::1 at 2015-05-15 10:25:54 +0100
+Processing by FlavoursController#new as HTML
+  Rendered flavours/_form.html.erb (41.0ms)
+  Rendered flavours/new.html.erb within layouts/application (44.8ms)
+Completed 200 OK in 264ms (Views: 263.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/flavours.self-33d2332833cb4f097424f35d8b53aa2bd3b36bb05bbda7e48249051003cbabdb.css?body=1" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/assets/foundation_and_overrides.self-0b4a6babc18d72e95c481dacc009b69664581683e0a17a49a73166666fb3c0bd.css?body=1" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/assets/style.self-62fd20146058b80acbf8590091b4223d238a3b106265d67f63887f45c3abfc3e.css?body=1" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/assets/vendor/modernizr.self-74da3245def7569da28115667be6a85a2ad97464abe707c9829c46d8975597bc.js?body=1" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/assets/foundation/foundation.self-ee5396739ce46beb039f26ea629172a74143752d74f703c6c3b219fc52aecf73.js?body=1" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/assets/foundation/foundation.abide.self-f8b56c707a79139807305a5f7efc2aaa0848f0c677abcc056496f507e0192b79.js?body=1" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/assets/foundation/foundation.accordion.self-d55abdcb0a7a29512be2f31f63d418cc8cc4505a0a3c71946d25484b0a0b3f4e.js?body=1" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/assets/foundation/foundation.alert.self-fbde7afb61e8ffd8ab9b717f0bed1e58cb9e0144a25cc773fea634d5554f62cd.js?body=1" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/assets/foundation/foundation.clearing.self-54610737b435a97590fcb176848c3c7a44c4d55d369894260fa7c28c97a70a23.js?body=1" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/assets/foundation/foundation.dropdown.self-c9ee29909e266373e5e814a73fc6ea062245ddd29466d35d232448f73350d78a.js?body=1" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/assets/foundation/foundation.equalizer.self-7aa743bf4660deb2fb2f601c112806a1703c430067531da3f41e4afffe19fee9.js?body=1" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/assets/foundation/foundation.interchange.self-dad8415355087cb21a16fa44bac20d602344d52de5aca9e588e3588fce5dd5a7.js?body=1" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/assets/foundation/foundation.joyride.self-0a5271728699423f583dd5b3b8a11bfe0dc9fb5044446bcf3218ef8ca906a82d.js?body=1" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/assets/foundation/foundation.magellan.self-a50193f172f11e57b373c3001072ba2d6b34b857ab251e9ded30af5242855687.js?body=1" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/assets/foundation/foundation.offcanvas.self-75bffd0c7f4f0d2992ab95f0cc6959282ebb5807da70123d40c01d76e230ec88.js?body=1" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/assets/foundation/foundation.orbit.self-f8d30eb1717c874db26723f9e07901ec0a325d59263f1404ee83a616bb597ad2.js?body=1" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/assets/foundation/foundation.reveal.self-95f01feb3e25e47b58b78da0021ae2fffafdee70846682067c180e0e10f7b095.js?body=1" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/assets/foundation/foundation.slider.self-8911a7352cb577b6b7973b0734d57d2b624c79286558ffa36fcac0c29b2d0bee.js?body=1" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/assets/foundation/foundation.tab.self-9bf6791513d1b20e213bb1aee3df0bc17128c7e18421258dc68a2a4ccabe1647.js?body=1" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/assets/foundation/foundation.tooltip.self-834156796c253580629cfffc720bdc3d191b1e5a5a6ddbc1102ecd08c876516c.js?body=1" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/assets/foundation/foundation.topbar.self-105416f061562f07c6a0a8057d68282fdc1eeb5dc306713fcae6c9a53001fc55.js?body=1" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/assets/foundation.self-abe4ee7a105042f73b12b1f1a28788522d2f253445a475a94ab4d6e1f7b0ec52.js?body=1" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/assets/flavours.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/assets/script.self-c91a913bab553cf23f384d13f846cb877a32baa9638ea0e32ff3e3f73f866a39.js?body=1" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/assets/application.self-1509cb3433bf7f60a75710bd4d8561d25423676b3c4d4a21914940bf07b8869a.js?body=1" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/assets/next-667715adddfd1e0ad87b3a182b74cc415d3a967ddddb0d5bec5200611c19f2b4.png" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/assets/Happy-4af38024a6bffb935d2341e08d0e2df5ee2fe3672801d1fb681b0c36ce762d79.jpg" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/assets/Sad-b0e670569ffb0e1c4f75eb122d4fe66be147c518d5484ca085666910b2470566.jpg" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/assets/Angry-1bcb71825dd20b5b65c6b353be3d39df50db8c049e0ede1b66460272fc0ab30d.jpg" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/assets/Party-53baf14f6369c2afbc5e080d92cc51a89ec993a8854f908370bce246755446df.jpg" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/assets/Neutral-226454f3c3b418527e1b4d5de385d41293fb04eee77d9384cef91cc8baa89d87.jpg" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/assets/Lucky-96b3aaf24eaa1e68510bc0c8a1bacc6a49915a81ec2b7d04379b1109495cc031.jpg" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/assets/Unlucky-9a01b711dde441dcb7ff1ab9dea7cf38f5fe952a52910aae5a39398082ae00b5.jpg" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/assets/TV-35f0c10dc305e266626cfa542119f7d657868527c1dfef897bfcf3a5d59a1b4e.jpg" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/assets/Cheeky1-0d7075af28bcb203a13a3d950f6969fca127ea30d8b22cb7a5735e763116fceb.jpg" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/assets/Cheeky2-043f242abbed302066bd0c4f8619fe42589a91352a8540c844358d12aae0804c.jpg" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/assets/Cheeky3-021f85bc9681fcca4bd4acfd000c34cf0fee3715997946dd5344a7120c7bb6bd.jpg" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/assets/Cheeky4-31c696583c3cbf14183a70899c30f156ff30d56709a9a8cc8473359a67d605d0.jpg" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/assets/Lambo-eb012dd70dfdcba5ce2d38512814af041cee7152da3b91e758265e30214daeb7.jpg" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/assets/BMW-dfaf91539fd1d2f7a976f75d3aa416ca80a006ce7f0096dbe7f6a0d81fa56f8e.jpg" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/assets/Citroen-03f3d5bc84059d51146ed86194b4b6ec9e153fddcf694b46870bfe0af7e76c85.jpg" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/assets/fonts/nandos-regular-webfont.woff" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/assets/nandosbg.png" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/assets/Shoe-c10f0409f891e1c25edd96b4a82294eb25a56fb8826a1f88cc9403f69c2633a7.jpg" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/assets/khaleesi-21a6b8001293212edf578882da67556592ee00f70bf8567f6ecec17f7a0556f0.jpg" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/assets/Rick-ca06ed4462316cb9dad6712009fe5c14b71fcd612724ce4bd4d4fe270a29a574.jpg" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/assets/Sheldon-aba4443d49eff4dd359df332e40ffa289c774d8784b6dea39c2bd184e57d1eaa.jpg" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/assets/walter_white-6b70ddb527a4500efc76b8177ed2ca2022c9e271615d0fd2d8473ab7e478a37a.jpg" for ::1 at 2015-05-15 10:25:54 +0100
+
+
+Started GET "/" for ::1 at 2015-05-15 10:25:58 +0100
+Processing by FlavoursController#new as HTML
+  Rendered flavours/_form.html.erb (41.6ms)
+  Rendered flavours/new.html.erb within layouts/application (45.7ms)
+Completed 200 OK in 312ms (Views: 311.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/flavours.self-33d2332833cb4f097424f35d8b53aa2bd3b36bb05bbda7e48249051003cbabdb.css?body=1" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/assets/foundation_and_overrides.self-0b4a6babc18d72e95c481dacc009b69664581683e0a17a49a73166666fb3c0bd.css?body=1" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/assets/style.self-4d199d3a6bb88d4f867c5be40cf9dc19fab20e9514617142fae68f010e40dc87.css?body=1" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/assets/vendor/modernizr.self-74da3245def7569da28115667be6a85a2ad97464abe707c9829c46d8975597bc.js?body=1" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/assets/foundation/foundation.self-ee5396739ce46beb039f26ea629172a74143752d74f703c6c3b219fc52aecf73.js?body=1" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/assets/foundation/foundation.accordion.self-d55abdcb0a7a29512be2f31f63d418cc8cc4505a0a3c71946d25484b0a0b3f4e.js?body=1" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/assets/foundation/foundation.abide.self-f8b56c707a79139807305a5f7efc2aaa0848f0c677abcc056496f507e0192b79.js?body=1" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/assets/foundation/foundation.alert.self-fbde7afb61e8ffd8ab9b717f0bed1e58cb9e0144a25cc773fea634d5554f62cd.js?body=1" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/assets/foundation/foundation.clearing.self-54610737b435a97590fcb176848c3c7a44c4d55d369894260fa7c28c97a70a23.js?body=1" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/assets/foundation/foundation.dropdown.self-c9ee29909e266373e5e814a73fc6ea062245ddd29466d35d232448f73350d78a.js?body=1" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/assets/foundation/foundation.equalizer.self-7aa743bf4660deb2fb2f601c112806a1703c430067531da3f41e4afffe19fee9.js?body=1" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/assets/foundation/foundation.interchange.self-dad8415355087cb21a16fa44bac20d602344d52de5aca9e588e3588fce5dd5a7.js?body=1" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/assets/foundation/foundation.magellan.self-a50193f172f11e57b373c3001072ba2d6b34b857ab251e9ded30af5242855687.js?body=1" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/assets/foundation/foundation.joyride.self-0a5271728699423f583dd5b3b8a11bfe0dc9fb5044446bcf3218ef8ca906a82d.js?body=1" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/assets/foundation/foundation.orbit.self-f8d30eb1717c874db26723f9e07901ec0a325d59263f1404ee83a616bb597ad2.js?body=1" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/assets/foundation/foundation.reveal.self-95f01feb3e25e47b58b78da0021ae2fffafdee70846682067c180e0e10f7b095.js?body=1" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/assets/foundation/foundation.offcanvas.self-75bffd0c7f4f0d2992ab95f0cc6959282ebb5807da70123d40c01d76e230ec88.js?body=1" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/assets/foundation/foundation.slider.self-8911a7352cb577b6b7973b0734d57d2b624c79286558ffa36fcac0c29b2d0bee.js?body=1" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/assets/foundation/foundation.tab.self-9bf6791513d1b20e213bb1aee3df0bc17128c7e18421258dc68a2a4ccabe1647.js?body=1" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/assets/foundation/foundation.tooltip.self-834156796c253580629cfffc720bdc3d191b1e5a5a6ddbc1102ecd08c876516c.js?body=1" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/assets/foundation/foundation.topbar.self-105416f061562f07c6a0a8057d68282fdc1eeb5dc306713fcae6c9a53001fc55.js?body=1" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/assets/foundation.self-abe4ee7a105042f73b12b1f1a28788522d2f253445a475a94ab4d6e1f7b0ec52.js?body=1" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/assets/flavours.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/assets/script.self-c91a913bab553cf23f384d13f846cb877a32baa9638ea0e32ff3e3f73f866a39.js?body=1" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/assets/application.self-1509cb3433bf7f60a75710bd4d8561d25423676b3c4d4a21914940bf07b8869a.js?body=1" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/assets/next-667715adddfd1e0ad87b3a182b74cc415d3a967ddddb0d5bec5200611c19f2b4.png" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/assets/Sad-b0e670569ffb0e1c4f75eb122d4fe66be147c518d5484ca085666910b2470566.jpg" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/assets/Happy-4af38024a6bffb935d2341e08d0e2df5ee2fe3672801d1fb681b0c36ce762d79.jpg" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/assets/Party-53baf14f6369c2afbc5e080d92cc51a89ec993a8854f908370bce246755446df.jpg" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/assets/Angry-1bcb71825dd20b5b65c6b353be3d39df50db8c049e0ede1b66460272fc0ab30d.jpg" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/assets/Neutral-226454f3c3b418527e1b4d5de385d41293fb04eee77d9384cef91cc8baa89d87.jpg" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/assets/Lucky-96b3aaf24eaa1e68510bc0c8a1bacc6a49915a81ec2b7d04379b1109495cc031.jpg" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/assets/Unlucky-9a01b711dde441dcb7ff1ab9dea7cf38f5fe952a52910aae5a39398082ae00b5.jpg" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/assets/TV-35f0c10dc305e266626cfa542119f7d657868527c1dfef897bfcf3a5d59a1b4e.jpg" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/assets/Cheeky1-0d7075af28bcb203a13a3d950f6969fca127ea30d8b22cb7a5735e763116fceb.jpg" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/assets/Cheeky2-043f242abbed302066bd0c4f8619fe42589a91352a8540c844358d12aae0804c.jpg" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/assets/Cheeky3-021f85bc9681fcca4bd4acfd000c34cf0fee3715997946dd5344a7120c7bb6bd.jpg" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/assets/Cheeky4-31c696583c3cbf14183a70899c30f156ff30d56709a9a8cc8473359a67d605d0.jpg" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/assets/fonts/nandos-regular-webfont.woff" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/assets/nandosbg.png" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/assets/Lambo-eb012dd70dfdcba5ce2d38512814af041cee7152da3b91e758265e30214daeb7.jpg" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/assets/BMW-dfaf91539fd1d2f7a976f75d3aa416ca80a006ce7f0096dbe7f6a0d81fa56f8e.jpg" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/assets/Citroen-03f3d5bc84059d51146ed86194b4b6ec9e153fddcf694b46870bfe0af7e76c85.jpg" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/assets/Shoe-c10f0409f891e1c25edd96b4a82294eb25a56fb8826a1f88cc9403f69c2633a7.jpg" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/assets/khaleesi-21a6b8001293212edf578882da67556592ee00f70bf8567f6ecec17f7a0556f0.jpg" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/assets/Rick-ca06ed4462316cb9dad6712009fe5c14b71fcd612724ce4bd4d4fe270a29a574.jpg" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/assets/Sheldon-aba4443d49eff4dd359df332e40ffa289c774d8784b6dea39c2bd184e57d1eaa.jpg" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/assets/walter_white-6b70ddb527a4500efc76b8177ed2ca2022c9e271615d0fd2d8473ab7e478a37a.jpg" for ::1 at 2015-05-15 10:25:59 +0100
+
+
+Started GET "/" for ::1 at 2015-05-15 10:26:07 +0100
+Processing by FlavoursController#new as HTML
+  Rendered flavours/_form.html.erb (41.3ms)
+  Rendered flavours/new.html.erb within layouts/application (45.3ms)
+Completed 200 OK in 265ms (Views: 264.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-0b4a6babc18d72e95c481dacc009b69664581683e0a17a49a73166666fb3c0bd.css?body=1" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/assets/style.self-041180e61780e3b4efe2d075c7f7794f48a29a6b8a174c1749c8b14ca8d4c0a7.css?body=1" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/assets/vendor/modernizr.self-74da3245def7569da28115667be6a85a2ad97464abe707c9829c46d8975597bc.js?body=1" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/assets/foundation/foundation.self-ee5396739ce46beb039f26ea629172a74143752d74f703c6c3b219fc52aecf73.js?body=1" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/assets/foundation/foundation.abide.self-f8b56c707a79139807305a5f7efc2aaa0848f0c677abcc056496f507e0192b79.js?body=1" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/assets/foundation/foundation.accordion.self-d55abdcb0a7a29512be2f31f63d418cc8cc4505a0a3c71946d25484b0a0b3f4e.js?body=1" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/assets/foundation/foundation.alert.self-fbde7afb61e8ffd8ab9b717f0bed1e58cb9e0144a25cc773fea634d5554f62cd.js?body=1" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/assets/foundation/foundation.clearing.self-54610737b435a97590fcb176848c3c7a44c4d55d369894260fa7c28c97a70a23.js?body=1" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/assets/flavours.self-33d2332833cb4f097424f35d8b53aa2bd3b36bb05bbda7e48249051003cbabdb.css?body=1" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/assets/foundation/foundation.dropdown.self-c9ee29909e266373e5e814a73fc6ea062245ddd29466d35d232448f73350d78a.js?body=1" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/assets/foundation/foundation.equalizer.self-7aa743bf4660deb2fb2f601c112806a1703c430067531da3f41e4afffe19fee9.js?body=1" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/assets/foundation/foundation.interchange.self-dad8415355087cb21a16fa44bac20d602344d52de5aca9e588e3588fce5dd5a7.js?body=1" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/assets/foundation/foundation.joyride.self-0a5271728699423f583dd5b3b8a11bfe0dc9fb5044446bcf3218ef8ca906a82d.js?body=1" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/assets/foundation/foundation.magellan.self-a50193f172f11e57b373c3001072ba2d6b34b857ab251e9ded30af5242855687.js?body=1" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/assets/foundation/foundation.offcanvas.self-75bffd0c7f4f0d2992ab95f0cc6959282ebb5807da70123d40c01d76e230ec88.js?body=1" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/assets/foundation/foundation.orbit.self-f8d30eb1717c874db26723f9e07901ec0a325d59263f1404ee83a616bb597ad2.js?body=1" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/assets/foundation/foundation.reveal.self-95f01feb3e25e47b58b78da0021ae2fffafdee70846682067c180e0e10f7b095.js?body=1" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/assets/foundation/foundation.tab.self-9bf6791513d1b20e213bb1aee3df0bc17128c7e18421258dc68a2a4ccabe1647.js?body=1" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/assets/foundation/foundation.slider.self-8911a7352cb577b6b7973b0734d57d2b624c79286558ffa36fcac0c29b2d0bee.js?body=1" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/assets/foundation/foundation.tooltip.self-834156796c253580629cfffc720bdc3d191b1e5a5a6ddbc1102ecd08c876516c.js?body=1" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/assets/foundation.self-abe4ee7a105042f73b12b1f1a28788522d2f253445a475a94ab4d6e1f7b0ec52.js?body=1" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/assets/foundation/foundation.topbar.self-105416f061562f07c6a0a8057d68282fdc1eeb5dc306713fcae6c9a53001fc55.js?body=1" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/assets/flavours.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/assets/application.self-1509cb3433bf7f60a75710bd4d8561d25423676b3c4d4a21914940bf07b8869a.js?body=1" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/assets/next-667715adddfd1e0ad87b3a182b74cc415d3a967ddddb0d5bec5200611c19f2b4.png" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/assets/script.self-c91a913bab553cf23f384d13f846cb877a32baa9638ea0e32ff3e3f73f866a39.js?body=1" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/assets/Happy-4af38024a6bffb935d2341e08d0e2df5ee2fe3672801d1fb681b0c36ce762d79.jpg" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/assets/Sad-b0e670569ffb0e1c4f75eb122d4fe66be147c518d5484ca085666910b2470566.jpg" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/assets/Unlucky-9a01b711dde441dcb7ff1ab9dea7cf38f5fe952a52910aae5a39398082ae00b5.jpg" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/assets/Angry-1bcb71825dd20b5b65c6b353be3d39df50db8c049e0ede1b66460272fc0ab30d.jpg" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/assets/Neutral-226454f3c3b418527e1b4d5de385d41293fb04eee77d9384cef91cc8baa89d87.jpg" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/assets/Cheeky1-0d7075af28bcb203a13a3d950f6969fca127ea30d8b22cb7a5735e763116fceb.jpg" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/assets/Party-53baf14f6369c2afbc5e080d92cc51a89ec993a8854f908370bce246755446df.jpg" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/assets/TV-35f0c10dc305e266626cfa542119f7d657868527c1dfef897bfcf3a5d59a1b4e.jpg" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/assets/Lucky-96b3aaf24eaa1e68510bc0c8a1bacc6a49915a81ec2b7d04379b1109495cc031.jpg" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/assets/Cheeky2-043f242abbed302066bd0c4f8619fe42589a91352a8540c844358d12aae0804c.jpg" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/assets/Cheeky4-31c696583c3cbf14183a70899c30f156ff30d56709a9a8cc8473359a67d605d0.jpg" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/assets/Cheeky3-021f85bc9681fcca4bd4acfd000c34cf0fee3715997946dd5344a7120c7bb6bd.jpg" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/assets/Lambo-eb012dd70dfdcba5ce2d38512814af041cee7152da3b91e758265e30214daeb7.jpg" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/assets/BMW-dfaf91539fd1d2f7a976f75d3aa416ca80a006ce7f0096dbe7f6a0d81fa56f8e.jpg" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/assets/Citroen-03f3d5bc84059d51146ed86194b4b6ec9e153fddcf694b46870bfe0af7e76c85.jpg" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/assets/khaleesi-21a6b8001293212edf578882da67556592ee00f70bf8567f6ecec17f7a0556f0.jpg" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/assets/fonts/nandos-regular-webfont.woff" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/assets/Shoe-c10f0409f891e1c25edd96b4a82294eb25a56fb8826a1f88cc9403f69c2633a7.jpg" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/assets/nandosbg.png" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/assets/Rick-ca06ed4462316cb9dad6712009fe5c14b71fcd612724ce4bd4d4fe270a29a574.jpg" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/assets/Sheldon-aba4443d49eff4dd359df332e40ffa289c774d8784b6dea39c2bd184e57d1eaa.jpg" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/assets/walter_white-6b70ddb527a4500efc76b8177ed2ca2022c9e271615d0fd2d8473ab7e478a37a.jpg" for ::1 at 2015-05-15 10:26:08 +0100
+
+
+Started GET "/" for ::1 at 2015-05-15 10:26:25 +0100
+Processing by FlavoursController#new as HTML
+  Rendered flavours/_form.html.erb (39.7ms)
+  Rendered flavours/new.html.erb within layouts/application (43.7ms)
+Completed 200 OK in 267ms (Views: 266.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/flavours.self-33d2332833cb4f097424f35d8b53aa2bd3b36bb05bbda7e48249051003cbabdb.css?body=1" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/assets/foundation_and_overrides.self-0b4a6babc18d72e95c481dacc009b69664581683e0a17a49a73166666fb3c0bd.css?body=1" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/assets/vendor/modernizr.self-74da3245def7569da28115667be6a85a2ad97464abe707c9829c46d8975597bc.js?body=1" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/assets/style.self-e9c39e71700d72987e7a4ed0c36a8cad0aabb707e2574be7a13d82260a382859.css?body=1" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/assets/foundation/foundation.self-ee5396739ce46beb039f26ea629172a74143752d74f703c6c3b219fc52aecf73.js?body=1" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/assets/foundation/foundation.abide.self-f8b56c707a79139807305a5f7efc2aaa0848f0c677abcc056496f507e0192b79.js?body=1" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/assets/foundation/foundation.accordion.self-d55abdcb0a7a29512be2f31f63d418cc8cc4505a0a3c71946d25484b0a0b3f4e.js?body=1" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/assets/foundation/foundation.alert.self-fbde7afb61e8ffd8ab9b717f0bed1e58cb9e0144a25cc773fea634d5554f62cd.js?body=1" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/assets/foundation/foundation.clearing.self-54610737b435a97590fcb176848c3c7a44c4d55d369894260fa7c28c97a70a23.js?body=1" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/assets/foundation/foundation.dropdown.self-c9ee29909e266373e5e814a73fc6ea062245ddd29466d35d232448f73350d78a.js?body=1" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/assets/foundation/foundation.equalizer.self-7aa743bf4660deb2fb2f601c112806a1703c430067531da3f41e4afffe19fee9.js?body=1" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/assets/foundation/foundation.interchange.self-dad8415355087cb21a16fa44bac20d602344d52de5aca9e588e3588fce5dd5a7.js?body=1" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/assets/foundation/foundation.joyride.self-0a5271728699423f583dd5b3b8a11bfe0dc9fb5044446bcf3218ef8ca906a82d.js?body=1" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/assets/foundation/foundation.magellan.self-a50193f172f11e57b373c3001072ba2d6b34b857ab251e9ded30af5242855687.js?body=1" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/assets/foundation/foundation.offcanvas.self-75bffd0c7f4f0d2992ab95f0cc6959282ebb5807da70123d40c01d76e230ec88.js?body=1" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/assets/foundation/foundation.orbit.self-f8d30eb1717c874db26723f9e07901ec0a325d59263f1404ee83a616bb597ad2.js?body=1" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/assets/foundation/foundation.reveal.self-95f01feb3e25e47b58b78da0021ae2fffafdee70846682067c180e0e10f7b095.js?body=1" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/assets/foundation/foundation.slider.self-8911a7352cb577b6b7973b0734d57d2b624c79286558ffa36fcac0c29b2d0bee.js?body=1" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/assets/foundation/foundation.tab.self-9bf6791513d1b20e213bb1aee3df0bc17128c7e18421258dc68a2a4ccabe1647.js?body=1" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/assets/foundation/foundation.tooltip.self-834156796c253580629cfffc720bdc3d191b1e5a5a6ddbc1102ecd08c876516c.js?body=1" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/assets/foundation/foundation.topbar.self-105416f061562f07c6a0a8057d68282fdc1eeb5dc306713fcae6c9a53001fc55.js?body=1" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/assets/foundation.self-abe4ee7a105042f73b12b1f1a28788522d2f253445a475a94ab4d6e1f7b0ec52.js?body=1" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/assets/flavours.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/assets/script.self-c91a913bab553cf23f384d13f846cb877a32baa9638ea0e32ff3e3f73f866a39.js?body=1" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/assets/application.self-1509cb3433bf7f60a75710bd4d8561d25423676b3c4d4a21914940bf07b8869a.js?body=1" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/assets/next-667715adddfd1e0ad87b3a182b74cc415d3a967ddddb0d5bec5200611c19f2b4.png" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/assets/Happy-4af38024a6bffb935d2341e08d0e2df5ee2fe3672801d1fb681b0c36ce762d79.jpg" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/assets/Sad-b0e670569ffb0e1c4f75eb122d4fe66be147c518d5484ca085666910b2470566.jpg" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/assets/Party-53baf14f6369c2afbc5e080d92cc51a89ec993a8854f908370bce246755446df.jpg" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/assets/Angry-1bcb71825dd20b5b65c6b353be3d39df50db8c049e0ede1b66460272fc0ab30d.jpg" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/assets/Lucky-96b3aaf24eaa1e68510bc0c8a1bacc6a49915a81ec2b7d04379b1109495cc031.jpg" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/assets/Neutral-226454f3c3b418527e1b4d5de385d41293fb04eee77d9384cef91cc8baa89d87.jpg" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/assets/fonts/nandos-regular-webfont.woff" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/assets/nandosbg.png" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/assets/Unlucky-9a01b711dde441dcb7ff1ab9dea7cf38f5fe952a52910aae5a39398082ae00b5.jpg" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/assets/TV-35f0c10dc305e266626cfa542119f7d657868527c1dfef897bfcf3a5d59a1b4e.jpg" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/assets/Cheeky1-0d7075af28bcb203a13a3d950f6969fca127ea30d8b22cb7a5735e763116fceb.jpg" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/assets/Cheeky2-043f242abbed302066bd0c4f8619fe42589a91352a8540c844358d12aae0804c.jpg" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/assets/Cheeky3-021f85bc9681fcca4bd4acfd000c34cf0fee3715997946dd5344a7120c7bb6bd.jpg" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/assets/Cheeky4-31c696583c3cbf14183a70899c30f156ff30d56709a9a8cc8473359a67d605d0.jpg" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/assets/Lambo-eb012dd70dfdcba5ce2d38512814af041cee7152da3b91e758265e30214daeb7.jpg" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/assets/Citroen-03f3d5bc84059d51146ed86194b4b6ec9e153fddcf694b46870bfe0af7e76c85.jpg" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/assets/BMW-dfaf91539fd1d2f7a976f75d3aa416ca80a006ce7f0096dbe7f6a0d81fa56f8e.jpg" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/assets/Shoe-c10f0409f891e1c25edd96b4a82294eb25a56fb8826a1f88cc9403f69c2633a7.jpg" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/assets/khaleesi-21a6b8001293212edf578882da67556592ee00f70bf8567f6ecec17f7a0556f0.jpg" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/assets/Rick-ca06ed4462316cb9dad6712009fe5c14b71fcd612724ce4bd4d4fe270a29a574.jpg" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/assets/Sheldon-aba4443d49eff4dd359df332e40ffa289c774d8784b6dea39c2bd184e57d1eaa.jpg" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/assets/walter_white-6b70ddb527a4500efc76b8177ed2ca2022c9e271615d0fd2d8473ab7e478a37a.jpg" for ::1 at 2015-05-15 10:26:26 +0100
+
+
+Started GET "/" for ::1 at 2015-05-15 10:26:30 +0100
+Processing by FlavoursController#new as HTML
+  Rendered flavours/_form.html.erb (44.7ms)
+  Rendered flavours/new.html.erb within layouts/application (49.1ms)
+Completed 200 OK in 237ms (Views: 236.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-0b4a6babc18d72e95c481dacc009b69664581683e0a17a49a73166666fb3c0bd.css?body=1" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/assets/style.self-7b2779319d31e03110ab108779db624ac2e6f3b6df9e27762c4bae48681aedbc.css?body=1" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/assets/vendor/modernizr.self-74da3245def7569da28115667be6a85a2ad97464abe707c9829c46d8975597bc.js?body=1" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/assets/flavours.self-33d2332833cb4f097424f35d8b53aa2bd3b36bb05bbda7e48249051003cbabdb.css?body=1" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/assets/foundation/foundation.self-ee5396739ce46beb039f26ea629172a74143752d74f703c6c3b219fc52aecf73.js?body=1" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/assets/foundation/foundation.abide.self-f8b56c707a79139807305a5f7efc2aaa0848f0c677abcc056496f507e0192b79.js?body=1" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/assets/foundation/foundation.accordion.self-d55abdcb0a7a29512be2f31f63d418cc8cc4505a0a3c71946d25484b0a0b3f4e.js?body=1" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/assets/foundation/foundation.alert.self-fbde7afb61e8ffd8ab9b717f0bed1e58cb9e0144a25cc773fea634d5554f62cd.js?body=1" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/assets/foundation/foundation.clearing.self-54610737b435a97590fcb176848c3c7a44c4d55d369894260fa7c28c97a70a23.js?body=1" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/assets/foundation/foundation.dropdown.self-c9ee29909e266373e5e814a73fc6ea062245ddd29466d35d232448f73350d78a.js?body=1" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/assets/foundation/foundation.equalizer.self-7aa743bf4660deb2fb2f601c112806a1703c430067531da3f41e4afffe19fee9.js?body=1" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/assets/foundation/foundation.interchange.self-dad8415355087cb21a16fa44bac20d602344d52de5aca9e588e3588fce5dd5a7.js?body=1" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/assets/foundation/foundation.joyride.self-0a5271728699423f583dd5b3b8a11bfe0dc9fb5044446bcf3218ef8ca906a82d.js?body=1" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/assets/foundation/foundation.magellan.self-a50193f172f11e57b373c3001072ba2d6b34b857ab251e9ded30af5242855687.js?body=1" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/assets/foundation/foundation.offcanvas.self-75bffd0c7f4f0d2992ab95f0cc6959282ebb5807da70123d40c01d76e230ec88.js?body=1" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/assets/foundation/foundation.orbit.self-f8d30eb1717c874db26723f9e07901ec0a325d59263f1404ee83a616bb597ad2.js?body=1" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/assets/foundation/foundation.reveal.self-95f01feb3e25e47b58b78da0021ae2fffafdee70846682067c180e0e10f7b095.js?body=1" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/assets/foundation/foundation.slider.self-8911a7352cb577b6b7973b0734d57d2b624c79286558ffa36fcac0c29b2d0bee.js?body=1" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/assets/foundation/foundation.tab.self-9bf6791513d1b20e213bb1aee3df0bc17128c7e18421258dc68a2a4ccabe1647.js?body=1" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/assets/foundation/foundation.tooltip.self-834156796c253580629cfffc720bdc3d191b1e5a5a6ddbc1102ecd08c876516c.js?body=1" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/assets/foundation/foundation.topbar.self-105416f061562f07c6a0a8057d68282fdc1eeb5dc306713fcae6c9a53001fc55.js?body=1" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/assets/foundation.self-abe4ee7a105042f73b12b1f1a28788522d2f253445a475a94ab4d6e1f7b0ec52.js?body=1" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/assets/flavours.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/assets/script.self-c91a913bab553cf23f384d13f846cb877a32baa9638ea0e32ff3e3f73f866a39.js?body=1" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/assets/application.self-1509cb3433bf7f60a75710bd4d8561d25423676b3c4d4a21914940bf07b8869a.js?body=1" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/assets/next-667715adddfd1e0ad87b3a182b74cc415d3a967ddddb0d5bec5200611c19f2b4.png" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/assets/Happy-4af38024a6bffb935d2341e08d0e2df5ee2fe3672801d1fb681b0c36ce762d79.jpg" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/assets/Sad-b0e670569ffb0e1c4f75eb122d4fe66be147c518d5484ca085666910b2470566.jpg" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/assets/Angry-1bcb71825dd20b5b65c6b353be3d39df50db8c049e0ede1b66460272fc0ab30d.jpg" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/assets/Neutral-226454f3c3b418527e1b4d5de385d41293fb04eee77d9384cef91cc8baa89d87.jpg" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/assets/Lucky-96b3aaf24eaa1e68510bc0c8a1bacc6a49915a81ec2b7d04379b1109495cc031.jpg" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/assets/Party-53baf14f6369c2afbc5e080d92cc51a89ec993a8854f908370bce246755446df.jpg" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/assets/fonts/nandos-regular-webfont.woff" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/assets/nandosbg.png" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/assets/Unlucky-9a01b711dde441dcb7ff1ab9dea7cf38f5fe952a52910aae5a39398082ae00b5.jpg" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/assets/TV-35f0c10dc305e266626cfa542119f7d657868527c1dfef897bfcf3a5d59a1b4e.jpg" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/assets/Cheeky1-0d7075af28bcb203a13a3d950f6969fca127ea30d8b22cb7a5735e763116fceb.jpg" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/assets/Cheeky2-043f242abbed302066bd0c4f8619fe42589a91352a8540c844358d12aae0804c.jpg" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/assets/Cheeky3-021f85bc9681fcca4bd4acfd000c34cf0fee3715997946dd5344a7120c7bb6bd.jpg" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/assets/Cheeky4-31c696583c3cbf14183a70899c30f156ff30d56709a9a8cc8473359a67d605d0.jpg" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/assets/Lambo-eb012dd70dfdcba5ce2d38512814af041cee7152da3b91e758265e30214daeb7.jpg" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/assets/BMW-dfaf91539fd1d2f7a976f75d3aa416ca80a006ce7f0096dbe7f6a0d81fa56f8e.jpg" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/assets/Citroen-03f3d5bc84059d51146ed86194b4b6ec9e153fddcf694b46870bfe0af7e76c85.jpg" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/assets/walter_white-6b70ddb527a4500efc76b8177ed2ca2022c9e271615d0fd2d8473ab7e478a37a.jpg" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/assets/Rick-ca06ed4462316cb9dad6712009fe5c14b71fcd612724ce4bd4d4fe270a29a574.jpg" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/assets/Shoe-c10f0409f891e1c25edd96b4a82294eb25a56fb8826a1f88cc9403f69c2633a7.jpg" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/assets/Sheldon-aba4443d49eff4dd359df332e40ffa289c774d8784b6dea39c2bd184e57d1eaa.jpg" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/assets/khaleesi-21a6b8001293212edf578882da67556592ee00f70bf8567f6ecec17f7a0556f0.jpg" for ::1 at 2015-05-15 10:26:31 +0100
+
+
+Started GET "/" for ::1 at 2015-05-15 10:26:37 +0100
+Processing by FlavoursController#new as HTML
+  Rendered flavours/_form.html.erb (50.6ms)
+  Rendered flavours/new.html.erb within layouts/application (55.0ms)
+Completed 200 OK in 214ms (Views: 213.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/flavours.self-33d2332833cb4f097424f35d8b53aa2bd3b36bb05bbda7e48249051003cbabdb.css?body=1" for ::1 at 2015-05-15 10:26:38 +0100
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-15 10:26:38 +0100
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-05-15 10:26:38 +0100
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-15 10:26:38 +0100
+
+
+Started GET "/assets/vendor/modernizr.self-74da3245def7569da28115667be6a85a2ad97464abe707c9829c46d8975597bc.js?body=1" for ::1 at 2015-05-15 10:26:38 +0100
+
+
+Started GET "/assets/foundation/foundation.self-ee5396739ce46beb039f26ea629172a74143752d74f703c6c3b219fc52aecf73.js?body=1" for ::1 at 2015-05-15 10:26:38 +0100
+
+
+Started GET "/assets/foundation_and_overrides.self-0b4a6babc18d72e95c481dacc009b69664581683e0a17a49a73166666fb3c0bd.css?body=1" for ::1 at 2015-05-15 10:26:38 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-15 10:26:38 +0100
+
+
+Started GET "/assets/style.self-041180e61780e3b4efe2d075c7f7794f48a29a6b8a174c1749c8b14ca8d4c0a7.css?body=1" for ::1 at 2015-05-15 10:26:38 +0100
+
+
+Started GET "/assets/foundation/foundation.abide.self-f8b56c707a79139807305a5f7efc2aaa0848f0c677abcc056496f507e0192b79.js?body=1" for ::1 at 2015-05-15 10:26:38 +0100
+
+
+Started GET "/assets/foundation/foundation.accordion.self-d55abdcb0a7a29512be2f31f63d418cc8cc4505a0a3c71946d25484b0a0b3f4e.js?body=1" for ::1 at 2015-05-15 10:26:38 +0100
+
+
+Started GET "/assets/foundation/foundation.alert.self-fbde7afb61e8ffd8ab9b717f0bed1e58cb9e0144a25cc773fea634d5554f62cd.js?body=1" for ::1 at 2015-05-15 10:26:38 +0100
+
+
+Started GET "/assets/foundation/foundation.clearing.self-54610737b435a97590fcb176848c3c7a44c4d55d369894260fa7c28c97a70a23.js?body=1" for ::1 at 2015-05-15 10:26:38 +0100
+
+
+Started GET "/assets/foundation/foundation.dropdown.self-c9ee29909e266373e5e814a73fc6ea062245ddd29466d35d232448f73350d78a.js?body=1" for ::1 at 2015-05-15 10:26:38 +0100
+
+
+Started GET "/assets/foundation/foundation.equalizer.self-7aa743bf4660deb2fb2f601c112806a1703c430067531da3f41e4afffe19fee9.js?body=1" for ::1 at 2015-05-15 10:26:38 +0100
+
+
+Started GET "/assets/foundation/foundation.interchange.self-dad8415355087cb21a16fa44bac20d602344d52de5aca9e588e3588fce5dd5a7.js?body=1" for ::1 at 2015-05-15 10:26:38 +0100
+
+
+Started GET "/assets/foundation/foundation.joyride.self-0a5271728699423f583dd5b3b8a11bfe0dc9fb5044446bcf3218ef8ca906a82d.js?body=1" for ::1 at 2015-05-15 10:26:38 +0100
+
+
+Started GET "/assets/foundation/foundation.offcanvas.self-75bffd0c7f4f0d2992ab95f0cc6959282ebb5807da70123d40c01d76e230ec88.js?body=1" for ::1 at 2015-05-15 10:26:38 +0100
+
+
+Started GET "/assets/foundation/foundation.magellan.self-a50193f172f11e57b373c3001072ba2d6b34b857ab251e9ded30af5242855687.js?body=1" for ::1 at 2015-05-15 10:26:38 +0100
+
+
+Started GET "/assets/foundation/foundation.orbit.self-f8d30eb1717c874db26723f9e07901ec0a325d59263f1404ee83a616bb597ad2.js?body=1" for ::1 at 2015-05-15 10:26:38 +0100
+
+
+Started GET "/assets/foundation/foundation.reveal.self-95f01feb3e25e47b58b78da0021ae2fffafdee70846682067c180e0e10f7b095.js?body=1" for ::1 at 2015-05-15 10:26:38 +0100
+
+
+Started GET "/assets/foundation/foundation.slider.self-8911a7352cb577b6b7973b0734d57d2b624c79286558ffa36fcac0c29b2d0bee.js?body=1" for ::1 at 2015-05-15 10:26:38 +0100
+
+
+Started GET "/assets/foundation/foundation.tab.self-9bf6791513d1b20e213bb1aee3df0bc17128c7e18421258dc68a2a4ccabe1647.js?body=1" for ::1 at 2015-05-15 10:26:38 +0100
+
+
+Started GET "/assets/foundation/foundation.tooltip.self-834156796c253580629cfffc720bdc3d191b1e5a5a6ddbc1102ecd08c876516c.js?body=1" for ::1 at 2015-05-15 10:26:38 +0100
+
+
+Started GET "/assets/foundation/foundation.topbar.self-105416f061562f07c6a0a8057d68282fdc1eeb5dc306713fcae6c9a53001fc55.js?body=1" for ::1 at 2015-05-15 10:26:38 +0100
+
+
+Started GET "/assets/flavours.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-15 10:26:38 +0100
+
+
+Started GET "/assets/foundation.self-abe4ee7a105042f73b12b1f1a28788522d2f253445a475a94ab4d6e1f7b0ec52.js?body=1" for ::1 at 2015-05-15 10:26:38 +0100
+
+
+Started GET "/assets/script.self-c91a913bab553cf23f384d13f846cb877a32baa9638ea0e32ff3e3f73f866a39.js?body=1" for ::1 at 2015-05-15 10:26:38 +0100
+
+
+Started GET "/assets/application.self-1509cb3433bf7f60a75710bd4d8561d25423676b3c4d4a21914940bf07b8869a.js?body=1" for ::1 at 2015-05-15 10:26:38 +0100
+
+
+Started GET "/assets/next-667715adddfd1e0ad87b3a182b74cc415d3a967ddddb0d5bec5200611c19f2b4.png" for ::1 at 2015-05-15 10:26:38 +0100
+
+
+Started GET "/assets/Sad-b0e670569ffb0e1c4f75eb122d4fe66be147c518d5484ca085666910b2470566.jpg" for ::1 at 2015-05-15 10:26:38 +0100
+
+
+Started GET "/assets/Happy-4af38024a6bffb935d2341e08d0e2df5ee2fe3672801d1fb681b0c36ce762d79.jpg" for ::1 at 2015-05-15 10:26:38 +0100
+
+
+Started GET "/assets/Angry-1bcb71825dd20b5b65c6b353be3d39df50db8c049e0ede1b66460272fc0ab30d.jpg" for ::1 at 2015-05-15 10:26:38 +0100
+
+
+Started GET "/assets/Party-53baf14f6369c2afbc5e080d92cc51a89ec993a8854f908370bce246755446df.jpg" for ::1 at 2015-05-15 10:26:38 +0100
+
+
+Started GET "/assets/Neutral-226454f3c3b418527e1b4d5de385d41293fb04eee77d9384cef91cc8baa89d87.jpg" for ::1 at 2015-05-15 10:26:38 +0100
+
+
+Started GET "/assets/Unlucky-9a01b711dde441dcb7ff1ab9dea7cf38f5fe952a52910aae5a39398082ae00b5.jpg" for ::1 at 2015-05-15 10:26:38 +0100
+
+
+Started GET "/assets/Cheeky3-021f85bc9681fcca4bd4acfd000c34cf0fee3715997946dd5344a7120c7bb6bd.jpg" for ::1 at 2015-05-15 10:26:38 +0100
+
+
+Started GET "/assets/Lucky-96b3aaf24eaa1e68510bc0c8a1bacc6a49915a81ec2b7d04379b1109495cc031.jpg" for ::1 at 2015-05-15 10:26:38 +0100
+
+
+Started GET "/assets/Cheeky2-043f242abbed302066bd0c4f8619fe42589a91352a8540c844358d12aae0804c.jpg" for ::1 at 2015-05-15 10:26:38 +0100
+
+
+Started GET "/assets/Cheeky1-0d7075af28bcb203a13a3d950f6969fca127ea30d8b22cb7a5735e763116fceb.jpg" for ::1 at 2015-05-15 10:26:38 +0100
+
+
+Started GET "/assets/TV-35f0c10dc305e266626cfa542119f7d657868527c1dfef897bfcf3a5d59a1b4e.jpg" for ::1 at 2015-05-15 10:26:38 +0100
+
+
+Started GET "/assets/BMW-dfaf91539fd1d2f7a976f75d3aa416ca80a006ce7f0096dbe7f6a0d81fa56f8e.jpg" for ::1 at 2015-05-15 10:26:38 +0100
+
+
+Started GET "/assets/Lambo-eb012dd70dfdcba5ce2d38512814af041cee7152da3b91e758265e30214daeb7.jpg" for ::1 at 2015-05-15 10:26:38 +0100
+
+
+Started GET "/assets/Cheeky4-31c696583c3cbf14183a70899c30f156ff30d56709a9a8cc8473359a67d605d0.jpg" for ::1 at 2015-05-15 10:26:38 +0100
+
+
+Started GET "/assets/Citroen-03f3d5bc84059d51146ed86194b4b6ec9e153fddcf694b46870bfe0af7e76c85.jpg" for ::1 at 2015-05-15 10:26:38 +0100
+
+
+Started GET "/assets/Shoe-c10f0409f891e1c25edd96b4a82294eb25a56fb8826a1f88cc9403f69c2633a7.jpg" for ::1 at 2015-05-15 10:26:38 +0100
+
+
+Started GET "/assets/Rick-ca06ed4462316cb9dad6712009fe5c14b71fcd612724ce4bd4d4fe270a29a574.jpg" for ::1 at 2015-05-15 10:26:38 +0100
+
+
+Started GET "/assets/Sheldon-aba4443d49eff4dd359df332e40ffa289c774d8784b6dea39c2bd184e57d1eaa.jpg" for ::1 at 2015-05-15 10:26:38 +0100
+
+
+Started GET "/assets/khaleesi-21a6b8001293212edf578882da67556592ee00f70bf8567f6ecec17f7a0556f0.jpg" for ::1 at 2015-05-15 10:26:38 +0100
+
+
+Started GET "/assets/walter_white-6b70ddb527a4500efc76b8177ed2ca2022c9e271615d0fd2d8473ab7e478a37a.jpg" for ::1 at 2015-05-15 10:26:38 +0100
+
+
+Started GET "/" for ::1 at 2015-05-15 10:28:19 +0100
+Processing by FlavoursController#new as HTML
+  Rendered flavours/_form.html.erb (793.2ms)
+  Rendered flavours/new.html.erb within layouts/application (842.2ms)
+Completed 200 OK in 1467ms (Views: 1466.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-0b4a6babc18d72e95c481dacc009b69664581683e0a17a49a73166666fb3c0bd.css?body=1" for ::1 at 2015-05-15 10:28:20 +0100
+
+
+Started GET "/assets/flavours.self-33d2332833cb4f097424f35d8b53aa2bd3b36bb05bbda7e48249051003cbabdb.css?body=1" for ::1 at 2015-05-15 10:28:20 +0100
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-05-15 10:28:20 +0100
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-15 10:28:20 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-15 10:28:20 +0100
+
+
+Started GET "/assets/vendor/modernizr.self-74da3245def7569da28115667be6a85a2ad97464abe707c9829c46d8975597bc.js?body=1" for ::1 at 2015-05-15 10:28:20 +0100
+
+
+Started GET "/assets/style.self-209b904f1b849f32d1ceefb1380fda2a790b67308d2b856144dcb56fb72c68e8.css?body=1" for ::1 at 2015-05-15 10:28:20 +0100
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-15 10:28:20 +0100
+
+
+Started GET "/assets/foundation/foundation.self-ee5396739ce46beb039f26ea629172a74143752d74f703c6c3b219fc52aecf73.js?body=1" for ::1 at 2015-05-15 10:28:20 +0100
+
+
+Started GET "/assets/foundation/foundation.abide.self-f8b56c707a79139807305a5f7efc2aaa0848f0c677abcc056496f507e0192b79.js?body=1" for ::1 at 2015-05-15 10:28:20 +0100
+
+
+Started GET "/assets/foundation/foundation.accordion.self-d55abdcb0a7a29512be2f31f63d418cc8cc4505a0a3c71946d25484b0a0b3f4e.js?body=1" for ::1 at 2015-05-15 10:28:20 +0100
+
+
+Started GET "/assets/foundation/foundation.alert.self-fbde7afb61e8ffd8ab9b717f0bed1e58cb9e0144a25cc773fea634d5554f62cd.js?body=1" for ::1 at 2015-05-15 10:28:20 +0100
+
+
+Started GET "/assets/foundation/foundation.clearing.self-54610737b435a97590fcb176848c3c7a44c4d55d369894260fa7c28c97a70a23.js?body=1" for ::1 at 2015-05-15 10:28:20 +0100
+
+
+Started GET "/assets/foundation/foundation.dropdown.self-c9ee29909e266373e5e814a73fc6ea062245ddd29466d35d232448f73350d78a.js?body=1" for ::1 at 2015-05-15 10:28:20 +0100
+
+
+Started GET "/assets/foundation/foundation.equalizer.self-7aa743bf4660deb2fb2f601c112806a1703c430067531da3f41e4afffe19fee9.js?body=1" for ::1 at 2015-05-15 10:28:20 +0100
+
+
+Started GET "/assets/foundation/foundation.interchange.self-dad8415355087cb21a16fa44bac20d602344d52de5aca9e588e3588fce5dd5a7.js?body=1" for ::1 at 2015-05-15 10:28:20 +0100
+
+
+Started GET "/assets/foundation/foundation.joyride.self-0a5271728699423f583dd5b3b8a11bfe0dc9fb5044446bcf3218ef8ca906a82d.js?body=1" for ::1 at 2015-05-15 10:28:20 +0100
+
+
+Started GET "/assets/foundation/foundation.magellan.self-a50193f172f11e57b373c3001072ba2d6b34b857ab251e9ded30af5242855687.js?body=1" for ::1 at 2015-05-15 10:28:20 +0100
+
+
+Started GET "/assets/foundation/foundation.offcanvas.self-75bffd0c7f4f0d2992ab95f0cc6959282ebb5807da70123d40c01d76e230ec88.js?body=1" for ::1 at 2015-05-15 10:28:20 +0100
+
+
+Started GET "/assets/foundation/foundation.orbit.self-f8d30eb1717c874db26723f9e07901ec0a325d59263f1404ee83a616bb597ad2.js?body=1" for ::1 at 2015-05-15 10:28:20 +0100
+
+
+Started GET "/assets/foundation/foundation.reveal.self-95f01feb3e25e47b58b78da0021ae2fffafdee70846682067c180e0e10f7b095.js?body=1" for ::1 at 2015-05-15 10:28:20 +0100
+
+
+Started GET "/assets/foundation/foundation.slider.self-8911a7352cb577b6b7973b0734d57d2b624c79286558ffa36fcac0c29b2d0bee.js?body=1" for ::1 at 2015-05-15 10:28:20 +0100
+
+
+Started GET "/assets/foundation/foundation.tab.self-9bf6791513d1b20e213bb1aee3df0bc17128c7e18421258dc68a2a4ccabe1647.js?body=1" for ::1 at 2015-05-15 10:28:20 +0100
+
+
+Started GET "/assets/foundation/foundation.tooltip.self-834156796c253580629cfffc720bdc3d191b1e5a5a6ddbc1102ecd08c876516c.js?body=1" for ::1 at 2015-05-15 10:28:20 +0100
+
+
+Started GET "/assets/foundation/foundation.topbar.self-105416f061562f07c6a0a8057d68282fdc1eeb5dc306713fcae6c9a53001fc55.js?body=1" for ::1 at 2015-05-15 10:28:21 +0100
+
+
+Started GET "/assets/foundation.self-abe4ee7a105042f73b12b1f1a28788522d2f253445a475a94ab4d6e1f7b0ec52.js?body=1" for ::1 at 2015-05-15 10:28:21 +0100
+
+
+Started GET "/assets/flavours.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-15 10:28:21 +0100
+
+
+Started GET "/assets/script.self-c91a913bab553cf23f384d13f846cb877a32baa9638ea0e32ff3e3f73f866a39.js?body=1" for ::1 at 2015-05-15 10:28:21 +0100
+
+
+Started GET "/assets/application.self-1509cb3433bf7f60a75710bd4d8561d25423676b3c4d4a21914940bf07b8869a.js?body=1" for ::1 at 2015-05-15 10:28:21 +0100
+
+
+Started GET "/assets/next-667715adddfd1e0ad87b3a182b74cc415d3a967ddddb0d5bec5200611c19f2b4.png" for ::1 at 2015-05-15 10:28:21 +0100
+
+
+Started GET "/assets/Sad-b0e670569ffb0e1c4f75eb122d4fe66be147c518d5484ca085666910b2470566.jpg" for ::1 at 2015-05-15 10:28:21 +0100
+
+
+Started GET "/assets/Happy-4af38024a6bffb935d2341e08d0e2df5ee2fe3672801d1fb681b0c36ce762d79.jpg" for ::1 at 2015-05-15 10:28:21 +0100
+
+
+Started GET "/assets/Angry-1bcb71825dd20b5b65c6b353be3d39df50db8c049e0ede1b66460272fc0ab30d.jpg" for ::1 at 2015-05-15 10:28:21 +0100
+
+
+Started GET "/assets/Lucky-96b3aaf24eaa1e68510bc0c8a1bacc6a49915a81ec2b7d04379b1109495cc031.jpg" for ::1 at 2015-05-15 10:28:21 +0100
+
+
+Started GET "/assets/Neutral-226454f3c3b418527e1b4d5de385d41293fb04eee77d9384cef91cc8baa89d87.jpg" for ::1 at 2015-05-15 10:28:21 +0100
+
+
+Started GET "/assets/Party-53baf14f6369c2afbc5e080d92cc51a89ec993a8854f908370bce246755446df.jpg" for ::1 at 2015-05-15 10:28:21 +0100
+
+
+Started GET "/assets/fonts/nandos-regular-webfont.woff" for ::1 at 2015-05-15 10:28:21 +0100
+
+
+Started GET "/assets/TV-35f0c10dc305e266626cfa542119f7d657868527c1dfef897bfcf3a5d59a1b4e.jpg" for ::1 at 2015-05-15 10:28:21 +0100
+
+
+Started GET "/assets/Unlucky-9a01b711dde441dcb7ff1ab9dea7cf38f5fe952a52910aae5a39398082ae00b5.jpg" for ::1 at 2015-05-15 10:28:21 +0100
+
+
+Started GET "/assets/Cheeky1-0d7075af28bcb203a13a3d950f6969fca127ea30d8b22cb7a5735e763116fceb.jpg" for ::1 at 2015-05-15 10:28:21 +0100
+
+
+Started GET "/assets/Cheeky2-043f242abbed302066bd0c4f8619fe42589a91352a8540c844358d12aae0804c.jpg" for ::1 at 2015-05-15 10:28:21 +0100
+
+
+Started GET "/assets/Cheeky3-021f85bc9681fcca4bd4acfd000c34cf0fee3715997946dd5344a7120c7bb6bd.jpg" for ::1 at 2015-05-15 10:28:21 +0100
+
+
+Started GET "/assets/Cheeky4-31c696583c3cbf14183a70899c30f156ff30d56709a9a8cc8473359a67d605d0.jpg" for ::1 at 2015-05-15 10:28:21 +0100
+
+
+Started GET "/assets/Lambo-eb012dd70dfdcba5ce2d38512814af041cee7152da3b91e758265e30214daeb7.jpg" for ::1 at 2015-05-15 10:28:21 +0100
+
+
+Started GET "/assets/nandosbg.png" for ::1 at 2015-05-15 10:28:21 +0100
+
+
+Started GET "/assets/BMW-dfaf91539fd1d2f7a976f75d3aa416ca80a006ce7f0096dbe7f6a0d81fa56f8e.jpg" for ::1 at 2015-05-15 10:28:21 +0100
+
+
+Started GET "/assets/Citroen-03f3d5bc84059d51146ed86194b4b6ec9e153fddcf694b46870bfe0af7e76c85.jpg" for ::1 at 2015-05-15 10:28:21 +0100
+
+
+Started GET "/assets/Shoe-c10f0409f891e1c25edd96b4a82294eb25a56fb8826a1f88cc9403f69c2633a7.jpg" for ::1 at 2015-05-15 10:28:21 +0100
+
+
+Started GET "/assets/khaleesi-21a6b8001293212edf578882da67556592ee00f70bf8567f6ecec17f7a0556f0.jpg" for ::1 at 2015-05-15 10:28:21 +0100
+
+
+Started GET "/assets/Rick-ca06ed4462316cb9dad6712009fe5c14b71fcd612724ce4bd4d4fe270a29a574.jpg" for ::1 at 2015-05-15 10:28:21 +0100
+
+
+Started GET "/assets/Sheldon-aba4443d49eff4dd359df332e40ffa289c774d8784b6dea39c2bd184e57d1eaa.jpg" for ::1 at 2015-05-15 10:28:21 +0100
+
+
+Started GET "/assets/walter_white-6b70ddb527a4500efc76b8177ed2ca2022c9e271615d0fd2d8473ab7e478a37a.jpg" for ::1 at 2015-05-15 10:28:21 +0100
