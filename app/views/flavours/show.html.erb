@@ -2,48 +2,58 @@
 <div id= "flavour-show">
 
 <% if (@flavour.mood == 'Angry' && @flavour.personality == 'Lucky') || (@flavour.mood == 'Neutral' && @flavour.personality == 'Lucky') %>
-
+<div class="results">
 <h1><%= @flavour.name %> you should go for EXTRA EXTRA HOT</h1>
-
+</div>
 
 <% elsif (@flavour.mood == 'Happy' && @flavour.personality == 'Party') || (@flavour.mood == 'Angry' && @flavour.personality == 'TV') %>
 
+<div class="results">
 <h1><%= @flavour.name %> you should go for EXTRA HOT</h1>
-
+</div>
 
 <% elsif (@flavour.mood == 'Neutral' && @flavour.personality == 'TV') || (@flavour.mood == 'Neutral' && @flavour.personality == 'Unlucky') %>
 
+<div class="results">
 <h1><%= @flavour.name %> you should go for HOT</h1>
-
+</div>
 
 <% elsif (@flavour.mood == 'Sad' && @flavour.personality == 'TV') || (@flavour.mood == 'Angry' && @flavour.personality == 'Party')%>
 
+<div class="results">
 <h1><%= @flavour.name %> you should go for Medium</h1>
-
+</div>
 
 <% elsif (@flavour.mood == 'Angry' && @flavour.personality == 'Unlucky') || (@flavour.mood == 'Happy' && @flavour.personality == 'TV') %>
 
+<div class="results">
 <h1><%= @flavour.name %> you should go for Garlic</h1>
-
+</div>
 
 <% elsif (@flavour.mood == 'Sad' && @flavour.personality == 'Unlucky') %>
 
+<div class="results">
 <h1><%= @flavour.name %> you should go for Wild Herb</h1>
-
+</div>
 
 <% elsif (@flavour.mood == 'Happy' && @flavour.personality == 'Lucky') || (@flavour.mood == 'Sad' && @flavour.personality == 'Party') %>
 
+<div class="results">
 <h1><%= @flavour.name %> you should go for Mild</h1>
-
+</div>
 
 <% elsif (@flavour.mood == 'Happy' && @flavour.personality == 'Unlucky') %>
 
+<div class="results">
 <h1><%= @flavour.name %> you should go for Lemon and Herb</h1>
-
+</div>
 
 <% elsif (@flavour.mood == 'Sad' && @flavour.personality == 'Lucky') || (@flavour.mood == 'Neutral' && @flavour.personality == 'Party') %>
 
+
+<div class="results">
 <h1><%= @flavour.name %> you should go for Plain</h1>
+</div>
 
 
 <% else %>
