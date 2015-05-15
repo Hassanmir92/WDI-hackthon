@@ -81,7 +81,8 @@ input.nameInput {
 }
 
 .selected {
-    background-color: black;
+    background-color: #aa4902;
+    border-radius: 5px; 
 }
 
 div.field img {
@@ -91,7 +92,8 @@ div.field img {
 }
 
 div.field img:hover {
-    background-color: black;
+    background-color: #aa4902;
+    border-radius: 5px;
 }
 
 div.field {
@@ -137,8 +139,22 @@ div.results {
     margin-top: -10px;
     margin-left: 70px;
   }
-  
+
 img.bob {
   width: 30px;
+}
+
+div.actions input.button {
+  font-family: "nandos-font";
+  font-size: 20px;
+  background-color: #b71c20;
+  border-radius: 100px;
+  margin: 0 auto; 
+  opacity: .9;
+}
+
+
+div.actions input.button:hover {
+  background-color: #b71c20;
 }
 

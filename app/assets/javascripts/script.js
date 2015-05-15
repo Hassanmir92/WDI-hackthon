@@ -8,7 +8,7 @@ var scrollToSection = function(button, location){
 }
 
 var initialize = function(){
-  scrollToSection('.findFlavourButton', 700);
+  scrollToSection('.findFlavourButton', 775);
 
   $('div.field input:radio').addClass('input_hidden');
   $('div.field img').on('click', function() {
